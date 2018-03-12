@@ -3,3 +3,16 @@
 body{
 	background-color: #00ffff;
 }
+
+/* formatando o menu */
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+}
+
+nav#menu li{
+	display:inline-block;
+	background-color:#dddddd;
+	padding:10px;
+}
