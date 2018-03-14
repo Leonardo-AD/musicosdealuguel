@@ -1,5 +1,11 @@
 @charset;
 
+p{
+	padding-right: 50%;
+	text-align: justify;
+	text-indent: 20px;
+}
+
 body{
 	background-color: 
 }
@@ -32,7 +38,7 @@ h2{
 	color:#3CB371;
 }
 body{
-	background-color: white;
+	background-color: #FAF0E6;
 }
 
 #paragrafo {
