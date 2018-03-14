@@ -1,7 +1,22 @@
 @charset;
 
+body{
+	background-color: 
+}
+
+#divp{
+	/*display: inline-block;*/
+	float: left;
+	position: relative;
+}
+#divx{
+	/*display: inline-block;*/
+	float: left;
+	position: relative;
+}
 header#cabecalho{
 	height: -12px;
+	position: relative;
 }
 h1{
 	color: #00BFFF;
@@ -14,13 +29,24 @@ h1{
  	padding: -10px;  
 }
 h2{
-	color:#3CB371; 
+	color:#3CB371;
 }
 body{
 	background-color: white;
 }
-p {
+
+#paragrafo {
 	text-indent: 20px;
+	text-align: justify;
+	padding-left: 2%;
+	padding-right: 50%;
+	width: 50%;
+}
+
+img{
+	padding-left: 60%;
+	margin-bottom: 10px;
+	align-content: center;
 }
 
 
@@ -28,15 +54,15 @@ p {
 
 
 nav#men1{
-	display:block;
+	/*display:block;*/
 }
 
 nav#men1 ul{
 	list-style: none;
 	text-transform: uppercase;
-	position:absolute;
+	/*position:relative;*/
 	margin-left: 1350px;
-    margin-top: -175px;
+    margin-bottom: 10%;
 }
 
 nav#men1 li{
