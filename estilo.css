@@ -61,6 +61,7 @@ img{
 
 nav#men1{
 	/*display:block;*/
+	margin-top:-100px;
 }
 
 nav#men1 ul{
@@ -68,7 +69,8 @@ nav#men1 ul{
 	text-transform: uppercase;
 	/*position:relative;*/
 	margin-left: 1350px;
-    margin-bottom: 10%;
+  margin-bottom: 10%;
+  /*margin-top:50px;*/
 }
 
 nav#men1 li{
