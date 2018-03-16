@@ -60,7 +60,7 @@ img{
 
 
 nav#men1{
-	/*display:block;*/
+	display:block;
 	margin-top:-100px;
 }
 
@@ -68,7 +68,7 @@ nav#men1 ul{
 	list-style: none;
 	text-transform: uppercase;
 	/*position:relative;*/
-	margin-left: 1350px;
+	margin-left: 900px;
   margin-bottom: 10%;
   /*margin-top:50px;*/
 }
@@ -94,7 +94,7 @@ nav#men1 a:hover{
 	color:#ffffff;
 }
 
-td{
+/*td{
 	position:absolute;
 	margin-top: -30px;
 	margin-right: 50%;
@@ -106,10 +106,50 @@ img{
 	padding-left:1050px; 
 	padding-right:100px;
 	margin-right:20%;
-}
+}*/
 
-div#text{
+div#missao{
 	position: absolute;
-	margin-top:-90px;
+	margin-top:20px;
 	margin-left:30px;
 }
+
+div#valores{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 30px;
+}
+
+div#sobre{
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 30px;
+}
+
+/*figure#ft1{
+	display: inline-block;
+	position: absolute;
+	margin-top: -20px
+}*/
+
+img{
+	/*margin-left: -25%;*/
+	display: block;
+	width: 100%;
+	height: 450px;
+	position: relative;
+	margin-top: -20px;
+	padding-left: 150px;
+	z-index: -1;
+	margin-left: -150px;
+}
+
+/*div#ft4 img{
+	display: block;
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	margin-top: 1200px;
+	padding-left: 150px;
+	margin-left: -150px;
+}*/
