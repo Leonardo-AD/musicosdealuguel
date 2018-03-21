@@ -102,9 +102,10 @@ div#fig{
 }
 
 div#fig img{
-	height: 417px;
-	width: 1350px;
-	padding-left: 40px;
+	display: block;
+	height: 775px;
+	width: 1830px;
+	margin-left: 0px;
 	/*padding-top: 10px;*/
 	/*padding-bottom: 15px; */
 }
@@ -129,3 +130,13 @@ h1#missao {
 }
 
 /*Estilizando o Cadastro*/
+
+h1#aslap{
+	text-align: center;
+}
+
+form#aslap{
+	display: block;
+	margin-left: 40%;
+}
+
