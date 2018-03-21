@@ -112,6 +112,10 @@ div#fig img{
 
 /*Estilizando a missão */
 
+body#missao{
+	background-color: black;
+}
+
 p#missao{
 	color:white;
 	display: block;
@@ -140,3 +144,42 @@ form#aslap{
 	margin-left: 40%;
 }
 
+/*Estilizando os Valores*/
+
+body#val{
+	background-color: black;
+}
+
+h1#val{
+	text-align: center;
+	color: white;
+}
+
+ul#val {
+	margin-left: 40%; 
+}
+
+ul#val li{
+	color: white;
+}
+
+/*Estilizando o Sobre*/
+
+body#sobre{
+	background-color: black;
+}
+
+h1#sobre{
+	text-align: center;
+	color: white;
+}
+
+/*Estilizando o Login*/
+
+h1#login{
+	text-align: center;
+}
+
+form#login{
+	text-align:center;
+}
