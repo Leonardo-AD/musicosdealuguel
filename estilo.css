@@ -109,4 +109,23 @@ div#fig img{
 	/*padding-bottom: 15px; */
 }
 
+/*Estilizando a missão */
 
+p#missao{
+	color:white;
+	display: block;
+	text-align: center;
+	text-indent: 10px;
+	margin-top: 80px;
+	padding-left: 655px;
+	height: 20px;
+	width: 500px;
+}
+
+h1#missao {
+	color:white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+/*Estilizando o Cadastro*/
