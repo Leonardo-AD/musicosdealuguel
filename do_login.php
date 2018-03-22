@@ -4,6 +4,7 @@ session_start();
 $usuario = $_POST['usuário'];
 $senha = $_POST['senha'];
 
+
 $u = file("users.txt");
 $s = file("pw.txt");
 
@@ -12,7 +13,7 @@ for($i=0 ; $i < sizeof($u); $i++){
 }
 
 for($i=0; $i<sizeof($s); $i++){
-	$s[$i] = trim($s[$i])
+	$s[$i] = trim($s[$i]);
 }
 
 $user = array_search($usuario, $u);
