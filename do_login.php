@@ -24,6 +24,6 @@ if ($user == $pws && in_array($usuario , $u)) {
 }
 
 else{
-	header("location:login.html");
+	header("location:login.php");
 }
 ?>
