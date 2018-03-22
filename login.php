@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="login">Login</h1>
-<form id="login" action="do_login.php">
+<form id="login" action="do_login.php" method="POST">
 	Login: <input type="text" name="usuário" placeholder="Nome" required title="Nome"><br>	
 	Senha: <input type="passworld" name="senha" placeholder="Senha" required title="senha"><br>
 	<input type="submit" name="Enviar">
