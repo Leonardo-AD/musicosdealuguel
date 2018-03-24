@@ -110,7 +110,32 @@ div#fig img{
 	/*padding-bottom: 15px; */
 }
 
-/*Estilizando a missão */
+/*Estilizando o sobre*/
+
+p#ident{
+	text-align: center;
+	text-indent: 30px;
+	text-align: justify;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+p#valores{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+p#info{
+	text-align: center;
+}
 
 body#missao{
 	background-color: black;
