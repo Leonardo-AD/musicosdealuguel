@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,12 +30,20 @@
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse-main">
 			<ul class="nav navbar-nav navbar-rigth">
-				<li><a class="active" href="index.html">Home</a></li>
+				<li><a class="active" href="index.php">Home</a></li>
+				<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">categorias</a>
+				<div class="dropdown-content">
+					<a href="#">Rock</a>
+					<a href="#">Hap</a>
+					<a href="#">Acustico</a>					
+				</div>
+				</li>
 				<li><a href="login.php">Login</a></li>
-				<li><a href="cadastro.html">Cadastre-se</a></li>
+				<li><a href="cadastro.php">Cadastre-se</a></li>
 				<!-- <li><a href="missao.html">Missão</a></li>
 				<li><a href="valores.html">Valores</a></li> -->
-				<li><a href="quemsomos.html">Quem Somos</a></li>
+				<li><a href="quemsomos.php">Quem Somos</a></li>
 			</ul>
 		</div>
 	</div>

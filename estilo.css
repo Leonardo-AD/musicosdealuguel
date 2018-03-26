@@ -1,114 +1,5 @@
 @charset
 
-header#head{
-	display: block;
-	height: 160px;
-	padding: auto;
-	background-image: url("img2.jpg") no-repeat;
-	/*border-bottom: 1px #606060 solid;*/
-}
-
-figure img{
-	margin-top: -150px;
-	margin-left:-40px;
-}
-
-header#head h1{
-	margin-left: 32%;
-	margin-top:-8px;
-	font-size: 40pt;
-	font-family: arial;
-	padding: 0px;
-	padding-top: 60px;
-}
-
-header#head nav{
-	position: absolute;
-}
-
-header#head ul{
-	position: absolute;
-	margin-left: 77%;
-	margin-top: -90px;
-}
-
-header#head li{
-	display: inline-block;
-	margin: 3px;
-	padding: 5px;
-	color:black;
-	background-color: #606060;
-	margin-bottom: 0px;
-	font-size: 15pt;
-	font-family: arial;
-}
-
-header#head li:hover {
-	background-color: black;
-	color:white;
-	transition: 1s;
-}
-
-nav#naves {
-	position: absolute;
-	margin-left: 78%;
-	margin-top: -20px;
-	padding: 0px;
-}
-
-nav#naves li {
-	display: inline-block;
-	margin:0px;
-	background-color: #606060;
-	font-size: 14pt;
-	padding: 4px;
-	color: black;
-}
-
-nav#naves li:hover {
-	background-color: black;
-	color: white;
-	transition: 1s;
-}
-
-nav#pq {
-	position: absolute;
-	margin-left: -40px;
-	padding: 0px;
-	margin-top: -20px;
-
-
-}
-
-nav#pq li{
-	display: block;
-	text-decoration: none;
-	background-color: #606060;
-	margin:0px;
-	padding: 4px;
-	font-size:14pt;
-	display: inline-block;
-	color: black; 
-}
-
-nav#pq input{
-	padding: 5px;
-	margin-left: -3px;
-}
-
-div#fig{
-	margin-top: 150px;
-	margin-left: -40px;
-}
-
-div#fig img{
-	display: block;
-	height: 775px;
-	width: 1830px;
-	margin-left: 0px;
-	/*padding-top: 10px;*/
-	/*padding-bottom: 15px; */
-}
 
 /*Estilizando o sobre*/
 
@@ -136,31 +27,12 @@ h4{
 p#info{
 	text-align: center;
 }
+			
 
-body#missao{
-	background-color: black;
-}
-
-p#missao{
-	color:white;
-	display: block;
-	text-align: center;
-	text-indent: 10px;
-	margin-top: 80px;
-	padding-left: 655px;
-	height: 20px;
-	width: 500px;
-}
-
-h1#missao {
-	color:white;
-	text-align: center;
-	padding-top: 30px;
-}
 
 /*Estilizando o Cadastro*/
 
-h1#aslap{
+/*h1#aslap{
 	text-align: center;
 }
 
@@ -171,9 +43,6 @@ form#aslap{
 
 /*Estilizando os Valores*/
 
-body#val{
-	background-color: black;
-}
 
 h1#val{
 	text-align: center;
@@ -207,4 +76,16 @@ h1#login{
 
 form#login{
 	text-align:center;
+}
+
+div#qs {
+	margin-top: 100px;
+}
+
+div#qs p#ident{
+	text-align: center;
+	text-indent: 30px;
+	text-align: justify;
+	margin-left: 200px;
+	margin-right: 200px;	
 }
