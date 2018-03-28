@@ -52,12 +52,12 @@
 	
 	Anderson dos Santos Lopes Adolfo de Paiva- E-mail: aslap7xx@gmail.com<br/>
 	Leonardo Alves - E-mail: leonardo.alves779@gmail.com<br/>
-	Lucielly Fernanda - E-mail: luciellyx5@gmial.com<br/>
+	Lucielly Fernanda - E-mail: luciellyx5@gmail.com<br/>
 	Rafael Vieira - E-mail: rafaelvieiraoffiline@gmail.com<br/>
 	Tarcísio Marques - E-mail: tarcisiomarques00000@gmail.com<br/>
-
 </p>
-	
+
+
 </div>
 </div>
 
