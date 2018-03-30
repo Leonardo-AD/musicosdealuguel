@@ -32,11 +32,11 @@
 			<ul class="nav navbar-nav navbar-rigth">
 				<li><a class="active" href="index.php">Home</a></li>
 				<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">categorias</a>
+				<a href="javascript:void(0)" class="dropbtn">Gêneros</a>
 				<div class="dropdown-content">
-					<a href="#">Rock</a>
-					<a href="#">Hap</a>
-					<a href="#">Acustico</a>					
+					<a href="#" style="color: black;">Rock</a>
+					<a href="#" style="color: black;">Rap</a>
+					<a href="#" style="color: black;">Samba</a>					
 				</div>
 				</li>
 				<li><a href="login.php">Login</a></li>
