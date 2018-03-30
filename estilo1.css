@@ -4,8 +4,8 @@ html, body{
 }
 
 .navbar{
-	background-color:#363636;
-	padding:  1% 0;
+	background-color:#23415c;
+	padding:  0.3% 0;
 	font-size: 1.2em;
 }
 
@@ -17,14 +17,67 @@ html, body{
 	color: #FFF;
 }
 
-#home {
+/*#home {
 	background:url(img1.jpg) no-repeat center center fixed;
 	display:table;
 	height: 100%;
 	position: relative;
 	width: 100%;
 	background-size: cover; 
+}*/
+#home {
+    background:url() no-repeat center center ;
+    display:table;
+    height: 40%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
 }
+#home p{
+    margin-top: 150px;
+}
+
+#home2 {
+    background:url(img1.jpg) no-repeat center center ;
+    display:table;
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+#home3 {
+    background:url() no-repeat center center ;
+    display:table;
+    height: 40%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+#home4 {
+    background:url(img1.jpg) no-repeat center center ;
+    display:table;
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+#home5 {
+    background:url() no-repeat center center ;
+    display:table;
+    height: 40%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+#home6 {
+    background:url(img1.jpg) no-repeat center center ;
+    display:table;
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+
 
 a.navbar-brand{
 	color: white;
