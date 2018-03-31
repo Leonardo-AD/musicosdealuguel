@@ -7,17 +7,32 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-<?php include "cabecalho.php"; ?>	
-<div id="qs">
-	<h1 id="aslap">Cadastre-se</h1>
-	<form action="" method="POST" id="aslap">		
-	Nome: <input type="text" name="Nome" placeholder="Nome" required title="Nome"><br>	
-	CPF: <input type="text" name="Cpf" placeholder="CPF" required title="CPF"><br>
-	Endereço: <input type="text" name="Endereco" placeholder="Endereço" required title="Endereço"><br>
-	Telefone: <input type="text" name="Telefone" placeholder="Telefone" required title="Telefone"><br>
-	E-mail: <input type="text" name="Email" placeholder="E-mail" required title="E-mail"><br>
-	<input type="submit" value="Cadastrar">
-	</form>
-</div>			
+<?php include "cabecalho.php"; ?>
+<h1 id="hh" align="center">Cadastre-se</h1>
+<form>	
+<table id="aslap">
+	<tr>
+		<td><label>NOME : </label></td>
+		<td><input type="text" name="nome" placeholder="Nome"></td>
+	</tr>
+	<tr>
+		<td><label>E-MAIL : </label></td>
+		<td><input type="text" name="E-MAIL" placeholder="Email"></td>
+	</tr>
+	<tr>
+		<td><label>SENHA : </label></td>
+		<td><input type="text" name="senha" placeholder="Senha"></td>
+	</tr>
+	<tr>
+		<td><label>CPF : </label></td>
+		<td><input type="text" name="cpf" placeholder="CPF"></td>
+	</tr>
+	<tr>
+		<td><label>TELEFONE : </label></td>
+		<td><input type="text" name="tel" placeholder="Telefone"></td>
+	</tr>
+</table>
+<input id="env" type="submit" name="enviar">
+</form>	
 </body>
 </html>
