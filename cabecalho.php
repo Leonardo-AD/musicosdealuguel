@@ -23,11 +23,23 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Musico de Aluguel</a>
+			<a class="navbar-brand" href="#">Músicos de Aluguel</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse-main">
 			<ul class="nav navbar-nav navbar-rigth">
 				<li><a class="active" href="index.php">Home</a></li>
+				<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Gêneros Musicais</a>
+				<div class="dropdown-content">
+					<a href="#" style="color: black;">Alternativo</a>
+					<a href="#" style="color: black;">Hip Hop / Rap</a>
+					<a href="#" style="color: black;">MPB</a>	
+					<a href="#" style="color: black;">Pop</a>
+					<a href="#" style="color: black;">Pop Rock</a>
+					<a href="#" style="color: black;">Rock</a>
+					<a href="#" style="color: black;">Sertanejo</a>				
+				</div>
+				</li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="cadastro.php">Cadastre-se</a></li>
 				<li><a href="quemsomos.php">Quem Somos</a></li>
