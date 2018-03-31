@@ -32,17 +32,19 @@
 			<ul class="nav navbar-nav navbar-rigth">
 				<li><a class="active" href="index.php">Home</a></li>
 				<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">Gêneros</a>
+				<a href="javascript:void(0)" class="dropbtn">Gêneros Musicais</a>
 				<div class="dropdown-content">
+					<a href="#" style="color: black;">Alternativo</a>
+					<a href="#" style="color: black;">Hip Hop / Rap</a>
+					<a href="#" style="color: black;">MPB</a>	
+					<a href="#" style="color: black;">Pop</a>
+					<a href="#" style="color: black;">Pop Rock</a>
 					<a href="#" style="color: black;">Rock</a>
-					<a href="#" style="color: black;">Rap</a>
-					<a href="#" style="color: black;">Samba</a>					
+					<a href="#" style="color: black;">Sertanejo</a>				
 				</div>
 				</li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="cadastro.php">Cadastre-se</a></li>
-				<!-- <li><a href="missao.html">Missão</a></li>
-				<li><a href="valores.html">Valores</a></li> -->
 				<li><a href="quemsomos.php">Quem Somos</a></li>
 			</ul>
 		</div>
@@ -51,15 +53,13 @@
 
 <div id="home">
 	<div class="landing-text">
-	<div>
+	<div id="texto">
 	<p align="center">
-	    <h1 align="center">TEXTO</h1>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    <h3 align="center">Bem vindo ao Músicos de Aluguel!</h3></br>
+		
+		Se você procura contratar um músico para se apresentar em seu comércio ou evento,</br> ou é um músico e quer ser contratado, você está no lugar certo.
+
+	</p>
 	</div>
 </div>
 </div>
@@ -70,14 +70,15 @@
 </div>
 <div id="home3">
 	<div class="landing-text">
-		<div>
-			<h1 align="center">TEXTO</h1>
-			<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div id="texto">
+			<h3 align="center">Todos os rítmos em um só lugar.</h3></br>
+			
+			<p id="p1">
+				
+				Juntando inovação, confiabilidade e simplicidade, o Músicos de Aluguel</br> promete ser a melhor experiência em contratação de músicos.
+
+			</p>
+		
 		</div>
 	</div>
 </div>
@@ -88,14 +89,15 @@
 </div>
 <div id="home5">
 	<div class="landing-text">
-		<div>
-			<h1 align="center">TEXTO</h1>
-			<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div id="texto">
+			<h3 align="center">Não fique de fora.</h3></br>
+			
+			<p id="p1">
+				
+				Faça login ou cadastre-se agora mesmo e aproveite você também os benefícios de fazer parte do Músicos de aluguel.
+
+			</p>
+		
 		</div>
 	</div>
 </div>
@@ -112,6 +114,7 @@
 		</div>
 	<!-- </div> -->
 	</div>
+
 </div>
 </body>
 </html>

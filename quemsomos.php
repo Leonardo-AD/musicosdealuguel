@@ -19,7 +19,7 @@
 	A plataforma Músicos de Aluguel chegou para inovar. Ela surgiu para resolver o problema da limitação na hora de contratar um músico ou grupo musical para fazer apresentações em bares e restaurantes ou em festas e eventos. Para utilizar os serviços do site basta clicar em cadastre-se na página inicial, se você já é cadastrado basta realizar o login também na página inicial. Se está pensando em contratar músicos ou grupos musicais você vai se surpreender com a diversidade de estilos musicais presente no nosso site, mostramos os músicos mais próximos de você para que a contratação seja ainda mais rápida. Cadastre-se, Procure, encontre e contrate. Uma plataforma fácil de usar e sem limitações na hora de contratar.
 
 </p>
-	<h4>Entre em contato conosco através do E-mail: musicosdealuguel@gmail.com</h4>
+	<h4>Entre em contato conosco através do E-mail: musicosdealuguel@gmail.com</h4></br>
 
 <h3>Missão</h3>
 
@@ -27,7 +27,7 @@
 	
 	Músicos de Aluguel é uma plataforma web que presta serviços de contratação musical destinados a atender as necessidades de cada cliente no Brasil com qualificação, confiabilidade e recursos de qualidade com custos adequados a seu negócio.
 
-</p>
+</p></br>
 
 <h3>Valores</h3>
 
@@ -43,17 +43,26 @@
 	Aperfeiçoamento das relações com nossos clientes.<br/>
 
 
-</p>
+</p></br>
 
-<h3>Desenvolvedores</h3>
+<h3>Desenvolvedores</h3></br>
+
+
+<figure class="grupo">
+
+<img src="grupo.jpg">
+	<figcaption>
+		<h4>Lucielly Fernanda - Rafael Vieira - Anderson dos Santos - Leonardo Alves - Tarcísio Marques</h4>
+	</figcaption>
+</figure></br>
 
 
 <p id="info">
 	
-	Anderson dos Santos Lopes Adolfo de Paiva- E-mail: aslap7xx@gmail.com<br/>
-	Leonardo Alves - E-mail: leonardo.alves779@gmail.com<br/>
 	Lucielly Fernanda - E-mail: luciellyx5@gmail.com<br/>
 	Rafael Vieira - E-mail: rafaelvieiraoffiline@gmail.com<br/>
+	Anderson dos Santos - E-mail: aslap7xx@gmail.com<br/>
+	Leonardo Alves - E-mail: leonardo.alves779@gmail.com<br/>
 	Tarcísio Marques - E-mail: tarcisiomarques00000@gmail.com<br/>
 </p>
 

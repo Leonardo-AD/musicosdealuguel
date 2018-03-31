@@ -1,7 +1,7 @@
 @charset
 
 
-/*Estilizando o sobre*/
+/*Estilizando o Quem Somos*/
 
 p#ident{
 	text-align: center;
@@ -26,6 +26,43 @@ h4{
 
 p#info{
 	text-align: center;
+}
+
+figure.grupo{
+	position: relative;
+	border: 4px solid white;
+	box-shadow: 1px 1px 1px 2px black;
+	align-content: center;
+	margin-left:300px;
+	margin-right:300px;
+
+}
+
+figure.grupo img{
+	width: 100%;
+	height: 100%;
+
+}
+
+figure.grupo figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	transition: opacity .5s;
+}
+
+figure.grupo:hover figcaption{
+	opacity: 1;
+}
+
+figure.grupo h4{
+	font-size: 16px;
 }
 			
 

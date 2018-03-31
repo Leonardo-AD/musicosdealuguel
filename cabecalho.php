@@ -30,8 +30,6 @@
 				<li><a class="active" href="index.php">Home</a></li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="cadastro.php">Cadastre-se</a></li>
-				<!-- <li><a href="missao.html">Missão</a></li>
-				<li><a href="valores.html">Valores</a></li> -->
 				<li><a href="quemsomos.php">Quem Somos</a></li>
 			</ul>
 		</div>
