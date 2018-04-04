@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="shortcut icon" href="img/logo2.png">
+
+	<link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/
@@ -110,11 +113,16 @@
 	<div class="container">
 	<!-- <div class="navbar-text pull-left"> -->
 		<div class="aslap">
-		<p style="color: white;">&copy; Aslap 2018 Rodapé</p>
+		<p id="rodape" style="color: white;">&copy; 2018 Músicos de Aluguel.</p>
+		
+		<ul id="icone">
+		<li><i class="fab fa-github-square"></i></li>
+		<li id= "facebook"><i class="fab fa-facebook-square"></i></li>
+	  <li id= "twitter"><i class="fab fa-twitter-square"></i></li>
+	  <li id= "whatsapp"><i class="fab fa-whatsapp-square"></i></li>
+		</ul>
 		</div>
-	<!-- </div> -->
 	</div>
-
 </div>
 </body>
 </html>
