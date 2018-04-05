@@ -96,30 +96,23 @@
 			<h3 align="center">Não fique de fora.</h3></br>
 			
 			<p id="p1">
-				
 				Faça login ou cadastre-se agora mesmo e aproveite você também os benefícios de fazer parte do Músicos de aluguel.
-
-			</p>
-		
+				</p>
+			</div>	
 		</div>
-	</div>
-</div>
+		</div>
 <div id="home6">
 	<div class="landing-text">
-		
-	</div>
-</div>
+		</div></div>
 <div class="navbar navbar-inverse navbar-fexed-bottom" role="navigation">
 	<div class="container">
-	<!-- <div class="navbar-text pull-left"> -->
 		<div class="aslap">
 		<p id="rodape" style="color: white;">&copy; 2018 Músicos de Aluguel.</p>
-		
-		<ul id="icone">
-		<li><i class="fab fa-github-square"></i></li>
-		<li id= "facebook"><i class="fab fa-facebook-square"></i></li>
-	  <li id= "twitter"><i class="fab fa-twitter-square"></i></li>
-	  <li id= "whatsapp"><i class="fab fa-whatsapp-square"></i></li>
+	<ul id="icone">
+	 <li1 id= "github"	style="color:black;"  class="fab fa-github-square"></i></li>
+	  <li2 id= "facebook" style="color: white;" class="fab fa-facebook-square"></i></li>
+	   <li3 id= "twitter"><i style="color:#00aced;" class="fab fa-twitter-square"></i></li>
+	  <li4 id= "whatsapp"><i style="color:#34af23" class="fab fa-whatsapp-square"></i></li>
 		</ul>
 		</div>
 	</div>
