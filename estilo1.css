@@ -140,10 +140,12 @@ li.dropdown {
     display: block;
 }
 p#rodape{
-    margin-left: -300px;
+    text-align: left;
 }
 ul#icone {
-    margin-left: -300px;
+    text-align: left;
+    /*height: 100%;
+    width: 100%;*/
 }
 ul#icone li{
  text-decoration: none;

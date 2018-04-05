@@ -107,13 +107,13 @@
 <div class="navbar navbar-inverse navbar-fexed-bottom" role="navigation">
 	<div class="container">
 		<div class="aslap">
-		<p id="rodape" style="color: white;">&copy; 2018 Músicos de Aluguel.</p>
-	<ul id="icone">
-	 <li id= "github"	style="color:black;"  class="fab fa-github-square"></i></li>
-	  <li id= "facebook" style="color: white;" class="fab fa-facebook-square"></i></li>
-	   <li id= "twitter"><i style="color:#00aced;background-color:white; " class="fab fa-twitter-square"></i></li>
-	  <li id= "google"><i style="color:white ;background-color:#dd4b39;" class="fab fa-google-plus"></i></li>
-		</ul>
+			<p id="rodape" style="color: white;">&copy; 2018 Músicos de Aluguel.</p>
+				<ul id="icone">
+	 				<li id= "github">   <i style="color:black;background-color:white;"  class="fab fa-github-square"></i></li>
+	  				<li id= "facebook"> <i style="color: #3b5998;background-color:white; " class="fab fa-facebook"></i></li>
+	   				<li id= "twitter"><i style="color:#00aced;background-color:white; " class="fab fa-twitter-square"></i></li>
+	  				<li id= "google"><i style="color:white ;background-color:#dd4b39;" class="fab fa-google-plus"></i></li>
+			</ul>
 		</div>
 	</div>
 </div>

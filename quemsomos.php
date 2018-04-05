@@ -5,6 +5,7 @@
 	<title>Quem Somos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="shortcut icon" href="img/logo2.png">
 </head>
 <body>
 
