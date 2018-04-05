@@ -109,10 +109,10 @@
 		<div class="aslap">
 		<p id="rodape" style="color: white;">&copy; 2018 Músicos de Aluguel.</p>
 	<ul id="icone">
-	 <li1 id= "github"	style="color:black;"  class="fab fa-github-square"></i></li>
-	  <li2 id= "facebook" style="color: white;" class="fab fa-facebook-square"></i></li>
-	   <li3 id= "twitter"><i style="color:#00aced;" class="fab fa-twitter-square"></i></li>
-	  <li4 id= "whatsapp"><i style="color:#34af23" class="fab fa-whatsapp-square"></i></li>
+	 <li id= "github"	style="color:black;"  class="fab fa-github-square"></i></li>
+	  <li id= "facebook" style="color: white;" class="fab fa-facebook-square"></i></li>
+	   <li id= "twitter"><i style="color:#00aced;background-color:white; " class="fab fa-twitter-square"></i></li>
+	  <li id= "google"><i style="color:white ;background-color:#dd4b39;" class="fab fa-google-plus"></i></li>
 		</ul>
 		</div>
 	</div>

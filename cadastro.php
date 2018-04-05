@@ -12,27 +12,22 @@
 <form>	
 <table id="aslap">
 	<tr>
-		<td><label>NOME : </label></td>
+		<td>Nome: </td>
 		<td><input type="text" name="nome" placeholder="Nome"></td>
 	</tr>
+
 	<tr>
-		<td><label>E-MAIL : </label></td>
+		<td>E-mail: </td>
 		<td><input type="text" name="E-MAIL" placeholder="Email"></td>
 	</tr>
+
 	<tr>
-		<td><label>SENHA : </label></td>
+		<td>Senha: </td>
 		<td><input type="text" name="senha" placeholder="Senha"></td>
 	</tr>
-	<tr>
-		<td><label>CPF : </label></td>
-		<td><input type="text" name="cpf" placeholder="CPF"></td>
-	</tr>
-	<tr>
-		<td><label>TELEFONE : </label></td>
-		<td><input type="text" name="tel" placeholder="Telefone"></td>
-	</tr>
+
 </table>
-<input id="env" type="submit" name="enviar">
+<input id="env" type="submit" value="Enviar">
 </form>	
 </body>
 </html>

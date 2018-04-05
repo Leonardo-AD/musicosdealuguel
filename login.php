@@ -9,13 +9,20 @@
 </head>
 <body>
 <?php include "cabecalho.php" ?>
-<div id="qs">
 <h1 id="login">Login</h1>
-<form id="login" action="do_login.php" method="POST">
-	Login: <input type="text" name="usuário" placeholder="Nome" required title="Nome"><br>	
-	Senha: <input type="passworld" name="senha" placeholder="Senha" required title="senha"><br>
-	<input type="submit" name="Enviar">
+<form id="login">
+	<table>
+		<tr>
+		<td>Login: </td>
+		<td><input type="text" name="login" placeholder="Login"></td>
+		</tr>
+
+		<tr>
+		<td>Senha: </td>
+		<td><input type="text" name="senha" placeholder="Senha"></td>
+		</tr>
+	</table>
+	<input id="env" type="submit" value="Enviar">
 </form>
-</div>
 </body>
 </html>
