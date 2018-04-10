@@ -3,9 +3,9 @@
 include 'init.php';
 
 if (!logado()) {
-    redirect('login.php');
+    header('location:login.php');
 } else {
-    redirect('piu.php');
+    header('location:piu.php');
 }
 
 ?>

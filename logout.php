@@ -2,8 +2,8 @@
 
 include 'init.php';
 
-sair();
+unset($_SESSION['user']);
 
-redirect('login.php');
+header('location:login.php');
 
 ?>

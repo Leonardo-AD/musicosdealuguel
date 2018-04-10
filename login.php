@@ -10,16 +10,15 @@
 <body>
 <?php include "cabecalho.php" ?>
 <h1 id="login">Login</h1>
-<form id="login">
+<form id="login" action="auth.php" method="POST">
 	<table>
 		<tr>
 		<td>Login: </td>
-		<td><input type="text" name="login" placeholder="Login"></td>
+		<td><input type="text" name="email" placeholder="Email"></td>
 		</tr>
-
 		<tr>
 		<td>Senha: </td>
-		<td><input type="text" name="senha" placeholder="Senha"></td>
+		<td><input type="password" name="senha" placeholder="Senha"></td>
 		</tr>
 	</table>
 	<input id="env" type="submit" value="Enviar">

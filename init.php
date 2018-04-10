@@ -20,12 +20,12 @@ function logado() {
     return isset($_SESSION['user']);
 }
 
-function sair() {
-    unset($_SESSION['user']);
-}
+// function sair() {
+    // unset($_SESSION['user']);
+// }
 
-function redirect($pagina) {
-	header('location: ' . $pagina);
-}
+// function redirect($pagina) {
+	// header('location: ' . $pagina);
+// }
 
 ?>

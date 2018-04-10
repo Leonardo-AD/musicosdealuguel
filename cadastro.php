@@ -10,21 +10,21 @@
 <body>
 <?php include "cabecalho.php"; ?>
 <h1 id="hh" align="center">Cadastre-se</h1>
-<form>	
+<form action="cad.php" method="POST">	
 <table id="aslap">
 	<tr>
 		<td>Nome: </td>
-		<td><input type="text" name="nome" placeholder="Nome"></td>
+		<td><input type="text" name="" placeholder="Nome"></td>
 	</tr>
 
 	<tr>
 		<td>E-mail: </td>
-		<td><input type="text" name="E-MAIL" placeholder="Email"></td>
+		<td><input type="text" name="novo_email" placeholder="Email"></td>
 	</tr>
 
 	<tr>
 		<td>Senha: </td>
-		<td><input type="text" name="senha" placeholder="Senha"></td>
+		<td><input type="password" name="nova_senha" placeholder="Senha"></td>
 	</tr>
 
 </table>

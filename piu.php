@@ -10,5 +10,6 @@
 	<input type="text" name="genero_musical" placeholder="Digite seu gênero musical"><br><br>
 	<input type="submit" name="enviar">
 </form>
+<a href="logout.php">Sair</a>
 </body>
 </html>

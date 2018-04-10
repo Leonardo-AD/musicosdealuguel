@@ -2,7 +2,7 @@
 
 include 'init.php';
 
-$newu = $_POST['novo_usuario'];
+$newu = $_POST['novo_email'];
 $newp = $_POST['nova_senha'];
 $user_new = $newu."-".$newp;
 

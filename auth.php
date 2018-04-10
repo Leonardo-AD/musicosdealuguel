@@ -6,9 +6,9 @@ $user = $_POST['email'];
 $pw = $_POST['senha'];
 
 if (login($user, $pw)) {
-    redirect('index.php');
+    header('location:indexlog.php');
 } else {
-    redirect('login.php');
+    header('location:login.php');
 }
 
 ?>
