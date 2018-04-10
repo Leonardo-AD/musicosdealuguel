@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cadastre-se</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link rel="shortcut icon" href="img/logo2.png">
+	<link rel="shortcut icon" href="img/logoo.png">
 </head>
 <body>
 <?php include "cabecalho.php"; ?>
