@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<link rel="shortcut icon" href="img/logoo.png">
 
 	<link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
@@ -108,14 +109,15 @@
 	<div class="container">
 		<div class="aslap">
 			<p id="rodape" style="color: white;">&copy; 2018 Músicos de Aluguel.</p>
+
 				<ul id="icone">
 	 				<a href="https://github.com/" target="_blank" style="color:black;background-color:white;"class="fab fa-github-square" title=""><a/>
 
-					<a href="https://pt-br.facebook.com/ target="_blank" style="color: #3b5998;background-color:white;"class="fab fa-facebook" title=""></a>
+					<a href="https://pt-br.facebook.com/" target="_blank" style="color: #3b5998;background-color:white;"class="fab fa-facebook" title=""></a>
 
-					<a href="https://twitter.com/login?lang=pt target="_blank" style="color:#00aced;background-color:white;"class="fab fa-twitter-square" title=""></a>
+					<a href="https://twitter.com/signup/" target="_blank" style="color:#00aced;background-color:white;"class="fab fa-twitter-square" title=""></a>
 
-					<a href="https://accounts.google.com/ target="_blank" style="color:white ;background-color:#dd4b39;"class="fab fa-google-plus" title=""></a>
+					<a href="https://plus.google.com/u/0/" target="_blank" style="color:white ;background-color:#dd4b39;"class="fab fa-google-plus" title=""></a>
 			</ul>
 		</div>
 	</div>
