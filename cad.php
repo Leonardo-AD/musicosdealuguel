@@ -12,8 +12,8 @@ $users_string = implode('', $users);
 
 file_put_contents('users-pws.txt', $users_string);
 
-echo "usuario cadastrado";
+echo "Usuário cadastrado com sucesso , para acessar sua conta clique ";
 
 ?>
 
-<a href="login.php">Acessar</a>
+<a href="login.php">AQUI</a>
