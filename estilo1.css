@@ -12,7 +12,9 @@ html, body{
 .navbar-default .navbar-nav li a{
 	color: #D5D5D5;
 }
-
+div#posicao{
+     margin-left: 65%;
+}
 .navbar-default .navbar-nav li a:hover, .navbar-default li a.active{
 	color: #FFF;
 }
@@ -81,7 +83,7 @@ div#texto{
     background-size: cover;
     top: -100px; 
 }
-#home6 {
+/*#home6 {
     background:url(img3.jpg) no-repeat center center ;
     display:table;
     height: 70%;
@@ -90,7 +92,7 @@ div#texto{
     background-size: cover; 
     top: -200px
 }
-
+*/
 
 a.navbar-brand{
 	color: white;

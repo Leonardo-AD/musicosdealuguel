@@ -13,8 +13,8 @@
 <form id="login" action="auth.php" method="POST">
 	<table>
 		<tr>
-		<td>Login: </td>
-		<td><input type="text" name="email" placeholder="Email"></td>
+		<td>E-mail: </td>
+		<td><input type="text" name="email" placeholder="E-mail"></td>
 		</tr>
 		<tr>
 		<td>Senha: </td>

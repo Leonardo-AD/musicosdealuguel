@@ -23,9 +23,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Músicos de Aluguel</a>
+			<!-- <a class="navbar-brand" href="#">Músicos de Aluguel</a> -->
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse-main">
+			<div id="posicao">
 			<ul class="nav navbar-nav navbar-rigth">
 				<li><a class="active" href="index.php">Home</a></li>
 				<li class="dropdown">
@@ -37,13 +38,15 @@
 					<a href="#" style="color: black;">Pop</a>
 					<a href="#" style="color: black;">Pop Rock</a>
 					<a href="#" style="color: black;">Rock</a>
-					<a href="#" style="color: black;">Sertanejo</a>				
+					<a href="#" style="color: black;">Sertanejo</a>	
+					<a href="todos.txt" style="color: black;">Todos</a>				
 				</div>
 				</li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="cadastro.php">Cadastre-se</a></li>
 				<li><a href="quemsomos.php">Quem Somos</a></li>
 			</ul>
+		</div>
 		</div>
 	</div>
 </nav>

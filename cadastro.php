@@ -12,14 +12,10 @@
 <h1 id="hh" align="center">Cadastre-se</h1>
 <form action="cad.php" method="POST">	
 <table id="aslap">
-	<tr>
-		<td>Nome: </td>
-		<td><input type="text" name="" placeholder="Nome"></td>
-	</tr>
 
 	<tr>
 		<td>E-mail: </td>
-		<td><input type="text" name="novo_email" placeholder="Email"></td>
+		<td><input type="text" name="novo_email" placeholder="E-mail"></td>
 	</tr>
 
 	<tr>
