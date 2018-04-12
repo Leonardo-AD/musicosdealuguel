@@ -110,12 +110,13 @@ h1#sobre{
 h1#login{
 	margin-top: -75px;
 	position: absolute;
-	margin-left: 43%;
+	margin-left: 50%;
 }
 
 form#login{
 	text-align:center;
 	margin-top: -130px;
+	margin-left: 9%;
 }
 
 form#login table{
