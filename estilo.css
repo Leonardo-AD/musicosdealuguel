@@ -173,19 +173,20 @@ li#google i{
 h2#logado{
 	margin-top: 15px;
 	position: absolute;
-	margin-left: 30%;
+	margin-left: 40%;
 	color: #23415c;
 }
 
 form#logado{
 	margin-top: 80px;
 	position: absolute;
-	margin-left: 36%;
+	margin-left: 43%;
 }
 a#sair{
-	margin-top: 200px;
+	margin-top: 250px;
 	position: absolute;
-	margin-left: 55%;
+	margin-left: 49%;
+	text-decoration: none;
 }
 input#envi{
 	margin-top: 8px;
