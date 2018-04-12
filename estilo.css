@@ -167,3 +167,42 @@ li#google i{
 	background-color: #dd4b39;
 	color:white;
 }
+
+/*Estilizando o piu*/
+
+h2#logado{
+	margin-top: 15px;
+	position: absolute;
+	margin-left: 30%;
+	color: #23415c;
+}
+
+form#logado{
+	margin-top: 80px;
+	position: absolute;
+	margin-left: 36%;
+}
+a#sair{
+	margin-top: 200px;
+	position: absolute;
+	margin-left: 55%;
+}
+input#envi{
+	margin-top: 8px;
+	position: absolute;
+	margin-left: 36%;
+}
+h1#cad{
+	margin-top: 10px;
+	position: absolute;
+	margin-left: 18%;
+	color: #23415c;
+}
+input#aq{
+	margin-top: 70px; 
+	text-align: center;
+	text-align: justify;
+	margin-left: 46%
+
+
+}

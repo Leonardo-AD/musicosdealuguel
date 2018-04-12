@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="estilo.css">
 <?php
 
 include 'init.php';
@@ -12,8 +13,9 @@ $users_string = implode('', $users);
 
 file_put_contents('users-pws.txt', $users_string);
 
-echo "Usuário cadastrado com sucesso , para acessar sua conta clique ";
-
 ?>
 
-<a href="login.php">AQUI</a>
+<h1 id="cad">Seja bem vindo, para acessar sua conta clique</h1>
+
+<a href="login.php">
+<input id="aq" type="submit" value="Aqui"></a>
