@@ -21,44 +21,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<!-- a class="navbar-brand" href="#">Músicos de Aluguel</a> -->
-		</div>
-		<div class="collapse navbar-collapse" id="navbar-collapse-main">
-			<div id="posicao">
-			<ul class="nav navbar-nav navbar-rigth">
-				<!-- <li><a class="active" href="index.php">Home</a></li> -->
-				<li><a href="index.php">Home</a></li>
-				<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">Gêneros Musicais</a>
-				<div class="dropdown-content">
-					<a href="#" style="color: black;">Alternativo</a>
-					<a href="#" style="color: black;">Hip Hop / Rap</a>
-					<a href="#" style="color: black;">MPB</a>	
-					<a href="#" style="color: black;">Pop</a>
-					<a href="#" style="color: black;">Pop Rock</a>
-					<a href="#" style="color: black;">Rock</a>
-					<a href="#" style="color: black;">Sertanejo</a>				
-					<a href="todos.txt" style="color: black;">Todos</a>	
-				</div>
-				</li>
-				<li><a href="login.php">Login</a></li>
-				<li><a href="cadastro.php">Cadastre-se</a></li>
-				<li><a href="quemsomos.php">Quem Somos</a></li>
-			</ul>
-			</div>
-		</div>
-	</div>
-</nav>
-
+<?php include 'cabecalho.php'; ?>
 <div id="home">
 	<div class="landing-text">
 	<div id="texto">
@@ -106,26 +69,7 @@
 			</div>	
 		</div>
 		</div> -->
-<div id="home6">
-	<div class="landing-text">
-		</div></div>
-<div class="navbar navbar-inverse navbar-fexed-bottom" role="navigation">
-	<div class="container">
-		<div class="aslap">
-			<p id="rodape" style="color: white;">&copy; 2018 Músicos de Aluguel.</p>
-
-				<ul id="icone">
-	 				<a href="https://github.com/" target="_blank" style="color:black;background-color:white;"class="fab fa-github-square" title=""><a/>
-
-					<a href="https://pt-br.facebook.com/" target="_blank" style="color: #3b5998;background-color:white;"class="fab fa-facebook" title=""></a>
-
-					<a href="https://twitter.com/signup/" target="_blank" style="color:#00aced;background-color:white;"class="fab fa-twitter-square" title=""></a>
-
-					<a href="https://plus.google.com/u/0/" target="_blank" style="color:white ;background-color:#dd4b39;"class="fab fa-google-plus" title=""></a>
-			</ul>
-		</div>
-	</div>
-</div>
+<?php include 'rodape.php'; ?>
 </body>
 </html>
 

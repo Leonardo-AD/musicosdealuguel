@@ -83,16 +83,12 @@ div#texto{
     background-size: cover;
     top: -100px; 
 }
-/*#home6 {
-    background:url(img3.jpg) no-repeat center center ;
+#home6 {
     display:table;
-    height: 70%;
     position: relative;
-    width: 100%;
     background-size: cover; 
-    top: -200px
+    
 }
-*/
 
 a.navbar-brand{
 	color: white;

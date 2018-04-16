@@ -1,7 +1,7 @@
 <?php
 
 include 'init.php';
-
+include 'cabecalho.php';
 if (!logado()) {
     header('location:login.php');
 } else {

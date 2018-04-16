@@ -15,16 +15,16 @@
 
 	<tr>
 		<td>E-mail: </td>
-		<td><input type="text" name="novo_email" placeholder="E-mail"></td>
+		<td><input type="email" name="novo_email" placeholder="E-mail" required></td>
 	</tr>
 
 	<tr>
 		<td>Senha: </td>
-		<td><input type="password" name="nova_senha" placeholder="Senha"></td>
+		<td><input type="password" name="nova_senha" placeholder="Senha" required></td>
 	</tr>
 
 </table>
-<input id="env" type="submit" value="Enviar">
+<input id="env" type="submit" value="Salvar">
 </form>	
 </body>
 </html>

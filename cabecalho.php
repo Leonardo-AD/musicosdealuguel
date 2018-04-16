@@ -5,6 +5,7 @@
 	bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
 	font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/
 	jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/
@@ -28,9 +29,9 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-main">
 			<div id="posicao">
 			<ul class="nav navbar-nav navbar-rigth">
-				<li><a class="active" href="index.php">Home</a></li>
+				<li><a href="index.php" class="fa fa-home" aria-hidden="true">Home</a></li>
 				<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">Gêneros Musicais</a>
+				<a href="javascript:void(0)" class="fa fa-music" aria-hidden="true" class="dropbtn">Gêneros Musicais</a>
 				<div class="dropdown-content">
 					<a href="#" style="color: black;">Alternativo</a>
 					<a href="#" style="color: black;">Hip Hop / Rap</a>
@@ -42,9 +43,9 @@
 					<a href="todos.txt" style="color: black;">Todos</a>				
 				</div>
 				</li>
-				<li><a href="login.php">Login</a></li>
-				<li><a href="cadastro.php">Cadastre-se</a></li>
-				<li><a href="quemsomos.php">Quem Somos</a></li>
+				<li><a href="login.php" class="fa fa-sign-in" aria-hidden="true">Login</a></li>
+				<li><a href="cadastro.php" class="fa fa-address-card" aria-hidden="true">Cadastre-se</a></li>
+				<li><a href="quemsomos.php" class ="fa fa-users">Quem Somos</a></li>
 			</ul>
 		</div>
 		</div>

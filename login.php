@@ -8,20 +8,22 @@
 	<link rel="shortcut icon" href="img/logoo.png">
 </head>
 <body>
-<?php include "cabecalho.php" ?>
+<?php include "cabecalho.php"; ?>
 <h1 id="login">Login</h1>
 <form id="login" action="auth.php" method="POST">
 	<table>
 		<tr>
 		<td>E-mail: </td>
-		<td><input type="text" name="email" placeholder="E-mail"></td>
+		<td><input type="text" name="email" placeholder="E-mail" required></td>
 		</tr>
 		<tr>
 		<td>Senha: </td>
-		<td><input type="password" name="senha" placeholder="Senha"></td>
+		<td><input type="password" name="senha" placeholder="Senha" required></td>
 		</tr>
 	</table>
-	<input id="env" type="submit" value="Enviar">
+	<input id="env" type="submit" value="Entrar">
 </form>
+<a href="cadastro.php">Cadastra-se</a>
+
 </body>
 </html>
