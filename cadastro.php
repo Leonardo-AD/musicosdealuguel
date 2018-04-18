@@ -10,12 +10,12 @@
 <body>
 <?php include "cabecalho.php"; ?>
 <h1 id="hh" align="center">Cadastre-se</h1>
-<form action="cad.php" method="POST">	
+<form action="cad.php" method="POST">
 <table id="aslap">
 
 	<tr>
-		<td>E-mail: </td>
-		<td><input type="email" name="novo_email" placeholder="E-mail" required></td>
+		<td>Login: </td>
+		<td><input type="text" name="novo_login" placeholder="login" required></td>
 	</tr>
 
 	<tr>
@@ -25,6 +25,6 @@
 
 </table>
 <input id="env" type="submit" value="Salvar">
-</form>	
+</form>
 </body>
 </html>

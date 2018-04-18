@@ -13,12 +13,12 @@
 <form id="login" action="auth.php" method="POST">
 	<table>
 		<tr>
-		<td>E-mail: </td>
-		<td><input type="text" name="email" placeholder="E-mail" required></td>
+		<td>Login: </td>
+		<td><input type="text" name="login" placeholder="Digite Seu Login" required></td>
 		</tr>
 		<tr>
 		<td>Senha: </td>
-		<td><input type="password" name="senha" placeholder="Senha" required></td>
+		<td><input type="password" name="senha" placeholder="Digite Sua Senha" required></td>
 		</tr>
 	</table>
 	<input id="env" type="submit" value="Entrar">
