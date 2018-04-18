@@ -10,6 +10,7 @@ function login ($user, $pw){
 	$usuario = $user."-".$pw;
 
 	if(in_array($usuario, $users)) {
+		$_SESSION['iu'] = array_search($usuario, $users);
     $_SESSION['user'] =  $user;
     return true;
   }
@@ -20,12 +21,12 @@ function logado() {
     return isset($_SESSION['user']);
 }
 
-// function sair() {
-    // unset($_SESSION['user']);
-// }
+function sair() {
+    unset($_SESSION['user']);
+}
 
-// function redirect($pagina) {
-	// header('location: ' . $pagina);
-// }
+function redirect($pagina) {
+	header('location: ' . $pagina);
+}
 
 ?>

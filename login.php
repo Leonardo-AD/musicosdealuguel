@@ -23,7 +23,7 @@
 	</table>
 	<input id="env" type="submit" value="Entrar">
 </form>
-<a href="cadastro.php">Cadastra-se</a>
+<a href="cadastro.php">Cadastre-se</a>
 
 </body>
 </html>

@@ -13,7 +13,7 @@ $users_string = implode('', $users);
 
 file_put_contents('users-pws.txt', $users_string);
 
-header("location:login.php");
+redirect("login.php");
 ?>
 <!-- <h1 id="cad">Seja bem vindo, para acessar sua conta clique</h1>
 

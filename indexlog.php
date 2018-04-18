@@ -3,9 +3,10 @@
 include 'init.php';
 include 'cabecalho.php';
 if (!logado()) {
-    header('location:login.php');
+    redirect('login.php');
 } else {
-    header('location:piu.php');
+    $iu = $_SESSION['iu'];
+    redirect("piu.php?user=$iu");
 }
 
 ?>
