@@ -5,6 +5,17 @@ luciellyx5@gmail.com-lu120199
 123145@gmail.com-123
 luciellyx5@gmail.com-lu120199
 bruce-123
+<<<<<<< HEAD
+lucy-lu120199
+leo-123
+tarcisio.marques-2018
+tarcisio.m-8525
+tarchdsjs-564646
+marques-forro
+marques-2018
+urhhfvf-9648
+urhhfvf-96448514
+Tarcisio.2018-2018
+=======
 tarcisio-marques
-lu-123
-eliana-123
+>>>>>>> a94fa9c117e1c97287a887c7e22534ef5b66a9be

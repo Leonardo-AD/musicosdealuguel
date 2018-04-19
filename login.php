@@ -9,21 +9,21 @@
 </head>
 <body>
 <?php include "cabecalho.php"; ?>
-<h1 id="login"></h1>
+<h1 id="login">Login</h1>
 <form id="login" action="auth.php" method="POST">
-<div class="login-box">
-    <img src="avatar.png" class="avatar">
-        <h1>Login</h1>
-            <p>Usuário</p>
-            <input type="text" name="login" placeholder="Digite seu login" required>
-            <p>Senha</p>
-            <input type="password" name="senha" placeholder="Digite sua senha" required>
-			<input id="env" type="submit" value="Entrar">
-            <a href="#">Esqueçeu a senha?</a>    
-            <a href="cadastro.php">Cadastre-se</a>
-            </form>
+	<table>
+		<tr>
+		<td>Login: </td>
+		<td><input type="text" name="login" placeholder="Digite Seu Login" required></td>
+		</tr>
+		<tr>
+		<td>Senha: </td>
+		<td><input type="password" name="senha" placeholder="Digite Sua Senha" required></td>
+		</tr>
+	</table>
+	<input id="env" type="submit" value="Entrar">
+</form>
+<a href="cadastro.php">Cadastre-se</a>
 
- </div>
-</html>
 </body>
-<?php include 'rodape.php'; ?>
+</html>
