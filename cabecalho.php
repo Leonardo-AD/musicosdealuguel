@@ -40,7 +40,7 @@
 					<a href="#" style="color: black;">Pop Rock</a>
 					<a href="#" style="color: black;">Rock</a>
 					<a href="#" style="color: black;">Sertanejo</a>	
-					<a href="todos.txt" style="color: black;">Todos</a>				
+					<a href="todos.php" style="color: black;">Todos</a>				
 				</div>
 				</li>
 				<li><a href="login.php" class="fa fa-sign-in" aria-hidden="true">Login</a></li>

@@ -1,6 +1,3 @@
-Leonardo,rock
-Anderson,alternativo
-Tarcísio,samba
-Lucielly,hip hop
-Rafael,funk
-aslap-aslap
+Bertonni - Pagode
+Anderson - Rock
+Tarcisio	-	Samba

@@ -283,3 +283,20 @@ div#quinto{
 	width:300px;
 	background-color: black;
 }
+
+div#lista{
+	margin-top: 90px;
+	position: absolute;
+	margin-left: 45%;
+
+}
+
+div#lista li{
+	list-style: none;
+	font-size: 17pt;
+}
+
+div#lista h1{
+	margin-left: -80px;
+	margin-bottom: 60px;
+}

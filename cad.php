@@ -27,7 +27,7 @@ $data_str = implode('', $data);
 file_put_contents($filename, $data_str);
 
 $a = file('todos.txt');
-$a[] = $newn."-".$newg;
+$a[] = $newn." - ".$newg.PHP_EOL;
 $dados = implode('', $a);
 file_put_contents('todos.txt', $dados); 
 
