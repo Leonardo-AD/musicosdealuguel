@@ -1,5 +1,6 @@
-Bertonni - Pagode
-Anderson - Rock
-Tarcisio	-	Samba
-Anderson - Mc
-Anderson - Mc
+Leonardo,rock
+Anderson,alternativo
+Tarcísio,samba
+Lucielly,hip hop
+Rafael,funk
+aslap-aslapTar-PopTa - samba

@@ -40,10 +40,10 @@
 					<a href="#" style="color: black;">Pop Rock</a>
 					<a href="#" style="color: black;">Rock</a>
 					<a href="#" style="color: black;">Sertanejo</a>	
-					<a href="todos.php" style="color: black;">Todos</a>				
+					<a href="todos.txt" style="color: black;">Todos</a>				
 				</div>
 				</li>
-				<li><a href="login.php" class="fa fa-sign-in" aria-hidden="true">Login</a></li>
+				<li><a href="indexlog.php" class="fa fa-sign-in" aria-hidden="true">Login</a></li>
 				<li><a href="cadastro.php" class="fa fa-address-card" aria-hidden="true">Cadastre-se</a></li>
 				<li><a href="quemsomos.php" class ="fa fa-users">Quem Somos</a></li>
 			</ul>

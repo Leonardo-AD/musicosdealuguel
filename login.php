@@ -23,7 +23,9 @@
 	</table>
 	<input id="env" type="submit" value="Entrar">
 </form>
-<a href="cadastro.php">Cadastre-se</a>
-
+	<h4>Ainda não tem cadastro? </h4>
+<button id="ma">
+<a id="mm" href="cadastro.php">Cadastre-se</a>
+</button>
 </body>
 </html>

@@ -284,19 +284,18 @@ div#quinto{
 	background-color: black;
 }
 
-div#lista{
-	margin-top: 90px;
+button#logout{
 	position: absolute;
-	margin-left: 45%;
-
+	margin-top: 20px;
+	margin-left: 1100px;
 }
 
-div#lista li{
-	list-style: none;
-	font-size: 17pt;
+button#ma{
+	position: absolute;
+	margin-top: -34px;
+	margin-left: 1030px;
 }
 
-div#lista h1{
-	margin-left: -80px;
-	margin-bottom: 60px;
+h4#nt{
+	margin-left: 100px;
 }
