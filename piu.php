@@ -32,11 +32,7 @@
 </div>
 
 <div id="segundo">
-	<table border="1">
-		<tr>
-			<td></td>
-		</tr>
-	</table>
+
 </div>
 
 <div id="terceiro">
