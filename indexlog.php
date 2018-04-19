@@ -5,7 +5,7 @@ include 'cabecalho.php';
 if (!logado()) {
     redirect('login.php');
 } else {
-    $iu = $_SESSION['iu'];
+    $iu = $_SESSION['user'];
     redirect("piu.php?user=$iu");
 }
 

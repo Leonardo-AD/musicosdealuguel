@@ -225,6 +225,12 @@ div#primeiro{
 	padding: 0px; 
 }
 
+div#primeiro h3{
+	position: absolute;
+	color:white;
+	margin-left: 300px;
+}
+
 /*div#primeiro:hover{
 	background-color:white;
 	color:black; 

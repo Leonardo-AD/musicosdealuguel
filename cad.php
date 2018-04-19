@@ -13,8 +13,7 @@ $users_string = implode('', $users);
 
 file_put_contents('users-pws.txt', $users_string);
 
-<<<<<<< HEAD
-$name = $_POST['novo_nome'];
+$name = $_POST['novo_login'];
 $filename = "$name.csv";
 
 if(!file_exists($filename)){
@@ -27,6 +26,11 @@ $data[] = $newn.",".$newg;
 $data_str = implode('', $data);
 file_put_contents($filename, $data_str);
 
+$a = file('todos.txt');
+$a[] = $newn."-".$newg;
+$dados = implode('', $a);
+file_put_contents('todos.txt', $dados); 
+
 /*$ng = $newn.",".$newg;
 $ngs = file('todos.csv');
 $ngs[] = $ng."\n";
@@ -35,9 +39,7 @@ $ngs_string = implode('', $ngs);
 file_put_contents('todos.csv', $ngs_string);*/
 
 header('location: login.php');
-=======
-redirect("login.php");
->>>>>>> a94fa9c117e1c97287a887c7e22534ef5b66a9be
+
 ?>
 <!-- <h1 id="cad">Seja bem vindo, para acessar sua conta clique</h1>
 

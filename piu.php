@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="img/logoo.png">
 	<title>Página do Usuário</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 	<?php 
-		include 'cabecalho.php';
-		include 'init.php';
-
-		$user = $_SESSION['user'];
-
-		$filename = "$user.csv";
-		$id_user = $_GET['user'];
-
-		if(!file_exists($filename)){
-			touch($filename);
-		}
-
+		$u = $_GET['user'];
+		$filename = "$u.csv";
 		$data = file($filename);
-		
+		$arr =[];
+		for($i = 0; $i < sizeof($data); $i++ ) {
+    $data[$i] = explode(',', $data[$i]);
+    $arr[$i] = $data[$i];
+		}
 	?>
-
+	
 <div id="primeiro">
+
+	<h3>
+		<?php for($i = 0; $i < sizeof($data); $i++): ?>
+<?= $data[0][$i]."<br/></br></br>"."Gênero Musical: ".$data[0][1] ?> 
+<?php endfor; ?>
+	</h3>
 	<div id="i">
 		<img src="<?php ?>">
 	</div>
@@ -49,12 +51,6 @@
 	
 </div>
 
-<h2 id="logado">Digite algumas informações</h2>
-<form id="logado" action="add.php" method="POST">
-	<input type="text" name="nome" placeholder="Digite seu nome"><br><br>
-	<input type="text" name="genero_musical" placeholder="Digite seu gênero musical"><br><br>
-	<input id="envi" type="submit" value="Enviar">
-</form>
 <a id="sair" href="logout.php">Sair</a>
 </body>
 </html>
