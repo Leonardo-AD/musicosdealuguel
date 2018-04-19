@@ -9,22 +9,17 @@
 </head>
 <body>
 <?php include "cabecalho.php"; ?>
-<h1 id="hh" align="center">Cadastre-se</h1>
 <form action="cad.php" method="POST">
-<table id="aslap">
-
-	<tr>
-		<td>Login: </td>
-		<td><input type="text" name="novo_login" placeholder="login" required></td>
-	</tr>
-
-	<tr>
-		<td>Senha: </td>
-		<td><input type="password" name="nova_senha" placeholder="Senha" required></td>
-	</tr>
-
-</table>
+<div class="login-box">
+    <img src="avatar.png" class="avatar">
+        <h1>Cadastre-se</h1>
+            <p>Usuário</p>
+            <input type="text" name="novo_login" placeholder="login" required>
+            <p>Senha</p>
+            <input type="password" name="nova_senha" placeholder="Senha" required>
 <input id="env" type="submit" value="Salvar">
 </form>
-</body>
+</div>
 </html>
+</body>
+<?php include 'rodape.php'; ?>

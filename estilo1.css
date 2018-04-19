@@ -94,6 +94,7 @@ div#texto{
     display:table;
     position: relative;
     background-size: cover;
+    height: 100%;
 
 }
 
