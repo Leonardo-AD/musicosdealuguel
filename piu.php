@@ -27,7 +27,7 @@
 <?php endfor; ?>
 	</h3>
 	<div id="i">
-		<img src="<?php ?>">
+		<img src="img1.jpg">
 	</div>
 </div>
 
