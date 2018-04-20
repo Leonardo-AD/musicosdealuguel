@@ -8,8 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
+	<?php include "cabecalho.php"; ?>
 	<?php
-		$u = $_GET['user'];
+	session_start();
+		$u = $_SESSION['user'];
 		$filename = "$u.csv";
 		$data = file($filename);
 		$arr =[];
@@ -23,7 +25,8 @@
 
 	<h3>
 		<?php for($i = 0; $i < sizeof($data); $i++): ?>
-<?= $data[0][$i]."<br/></br></br>"."Gênero Musical: ".$data[0][1] ?>
+<?= $data[0][$i]."<br/>
+<a href='logout.php'>Deslogar</a></br></br>"."Gênero Musical: ".$data[0][1] ?>
 <?php endfor; ?>
 	</h3>
 	<div id="i">
@@ -46,7 +49,7 @@
 <div id="quinto">
 
 </div>
+<?php include 'rodape.php'; ?>
 
-<a id="sair" href="logout.php">Sair</a>
 </body>
 </html>
