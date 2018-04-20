@@ -64,7 +64,7 @@ figure.grupo:hover figcaption{
 figure.grupo h4{
 	font-size: 16px;
 }
-			
+
 
 
 /*Estilizando o Cadastro*/
@@ -87,7 +87,7 @@ h1#val{
 }
 
 ul#val {
-	margin-left: 40%; 
+	margin-left: 40%;
 }
 
 ul#val li{
@@ -144,7 +144,7 @@ div#qs p#ident{
 	text-indent: 30px;
 	text-align: justify;
 	margin-left: 200px;
-	margin-right: 200px;	
+	margin-right: 200px;
 }
 
 table#aslap{
@@ -207,33 +207,34 @@ h1#cad{
 	color: #23415c;
 }
 input#aq{
-	margin-top: 70px; 
+	margin-top: 70px;
 	text-align: center;
 	text-align: justify;
 	margin-left: 46%
 }
+
 
 /*css do piu/user*/
 
 div#primeiro{
 	display: block;
 	margin-top:50px;
-	margin-left:300px; 
+	margin-left:300px;
 	height: 190px;
 	width:1200px;
-	background-color:black;
-	padding: 0px; 
+	background-color:#606060;
+	padding: 0px;
 }
 
 div#primeiro h3{
 	position: absolute;
 	color:white;
-	margin-left: 300px;
+	margin-left: 500px;
 }
 
 /*div#primeiro:hover{
 	background-color:white;
-	color:black; 
+	color:black;
 }*/
 
 div#primeiro div#i{
@@ -256,16 +257,16 @@ div#segundo{
 	margin-left: 300px;
 	height:210px;
 	width:300px;
-	background-color: black;
+	background-color:#606060;
 }
 
 div#terceiro{
 	display: block;
-	margin-top:-210px; 
+	margin-top:-210px;
 	height:90px;
 	width:890px;
 	margin-left:610px;
-	background-color: black;
+	background-color: #606060;
 }
 
 div#quarto{
@@ -273,15 +274,15 @@ div#quarto{
 	margin-left: 300px;
 	height:150px;
 	width:300px;
-	background-color: black;
+	background-color: #606060;
 }
 
 div#quinto{
 	margin-top:15px;
-	margin-left:300px; 
-	height:250px; 
+	margin-left:300px;
+	height:250px;
 	width:300px;
-	background-color: black;
+	background-color: #606060;
 }
 
 button#logout{

@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-	<?php 
+	<?php
 		$u = $_GET['user'];
 		$filename = "$u.csv";
 		$data = file($filename);
@@ -18,16 +18,16 @@
     $arr[$i] = $data[$i];
 		}
 	?>
-	
+
 <div id="primeiro">
 
 	<h3>
 		<?php for($i = 0; $i < sizeof($data); $i++): ?>
-<?= $data[0][$i]."<br/></br></br>"."Gênero Musical: ".$data[0][1] ?> 
+<?= $data[0][$i]."<br/></br></br>"."Gênero Musical: ".$data[0][1] ?>
 <?php endfor; ?>
 	</h3>
 	<div id="i">
-		<img src="img1.jpg">
+		<img src="avatar.png">
 	</div>
 </div>
 
@@ -36,15 +36,15 @@
 </div>
 
 <div id="terceiro">
-	
+
 </div>
 
 <div id="quarto">
-	
+
 </div>
 
 <div id="quinto">
-	
+
 </div>
 
 <a id="sair" href="logout.php">Sair</a>
