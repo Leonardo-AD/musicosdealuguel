@@ -29,7 +29,9 @@
 	    <h3 align="center">Bem vindo ao Músicos de Aluguel!</h3></br>
 		
 		Se você procura contratar um músico para se apresentar em seu comércio ou evento,</br> ou é um músico e quer ser contratado, você está no lugar certo.
-
+	<table id="tbusca">
+		
+	</table>
 	</p>
 	</div>
 </div>

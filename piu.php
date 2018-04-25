@@ -10,8 +10,26 @@
 <body>
 	<?php include "cabecalho.php"; ?>
 	<?php
-	session_start();
-		$u = $_SESSION['user'];
+		include 'init.php';
+		if(empty($_GET['user'])){
+			if($_SESSION['user']){
+				$u = $_SESSION['user'];
+			}
+			else{
+				redirect('index.php');
+			}
+		}
+		/*else{
+			if($_GET['user']){
+				$u = $_GET['user'];
+			}
+			else{
+				$u = $_SESSION['user'];
+			}
+		}
+		else{
+			$u = $_SESSION['user']
+		}*/
 		$filename = "$u.csv";
 		$data = file($filename);
 		$arr =[];
@@ -24,6 +42,7 @@
 <div id="primeiro">
 
 	<h3>
+	
 		<?php for($i = 0; $i < sizeof($data); $i++): ?>
 <?= $data[0][$i]."<br/>
 <a href='logout.php'>Deslogar</a></br></br>"."Gênero Musical: ".$data[0][1] ?>

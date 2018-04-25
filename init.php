@@ -10,7 +10,6 @@ function login ($user, $pw){
 	$usuario = $user."-".$pw;
 
 	if(in_array($usuario, $users)) {
-		$_SESSION['iu'] = array_search($usuario, $users);
     $_SESSION['user'] =  $user;
     return true;
   }

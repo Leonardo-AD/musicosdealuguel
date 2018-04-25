@@ -24,6 +24,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
+				<form id="busc" action="piu.php" method="GET">
+					<input type="text" name="user" placeholder="Busque um cantor"></td>
+					<input type="submit"></td>
+				</form>
 			<!-- <a class="navbar-brand" href="#">Músicos de Aluguel</a> -->
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse-main">
