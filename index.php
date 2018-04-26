@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -16,12 +15,14 @@
 	jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/
 	bootstrap.min.js"></script>
-	<link rel="stylesheet" href="estilo1.css">
+	<link rel="stylesheet" href="css/estilo1.css">
 	<title>Músicos de Aluguel</title>
 </head>
 <body>
 
-<?php include 'cabecalho.php'; ?>
+<?php 
+include 'cabecalho.php'; 
+?>
 <div id="home">
 	<div class="landing-text">
 	<div id="texto">
@@ -71,7 +72,7 @@
 			</div>	
 		</div>
 		</div> -->
-<?php include 'rodape.php'; ?>
+<?php include 'php/rodape.php'; ?>
 </body>
 </html>
 

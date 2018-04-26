@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="shortcut icon" href="img/logoo.png">
 </head>
 <body>
@@ -22,8 +22,10 @@
 		</tr>
 	</table>
 	<input id="env" type="submit" value="Entrar">
-</form>
 	<h4>Ainda não tem cadastro? </h4>
 <a style="margin-left:50%" href="cadastro.php">Cadastre-se</a>
+</form>
+
+<?php include "rodape.php"; ?>
 </body>
 </html>

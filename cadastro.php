@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cadastre-se</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="shortcut icon" href="img/logoo.png">
 </head>
 <body>
@@ -33,5 +33,6 @@
 </table>
 <input id="env" type="submit" value="Salvar">
 </form>
+<?php include 'rodape.php'; ?>
 </body>
 </html>

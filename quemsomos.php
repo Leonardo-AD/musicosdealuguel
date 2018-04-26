@@ -4,20 +4,13 @@
 	<meta charset="utf-8">
 	<title>Quem Somos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="shortcut icon" href="img/logoo.png">
 
 </head>
 <body>
 
 <?php include "cabecalho.php"; ?>
-
-
-
-
-
-
-
 
 <div id="qs">
 <div id="sobre">
@@ -60,7 +53,7 @@
 
 <figure class="grupo">
 
-<img src="grupo.jpg">
+<img src="img/grupo.jpg">
 	<figcaption>
 		<h4>Lucielly Fernanda - Rafael Vieira - Anderson dos Santos - Leonardo Alves - Tarcísio Marques</h4>
 	</figcaption>
@@ -74,12 +67,12 @@
 	Anderson dos Santos - E-mail: aslap7xx@gmail.com<br/>
 	Leonardo Alves - E-mail: leonardo.alves779@gmail.com<br/>
 	Tarcísio Marques - E-mail: tarcisiomarques00000@gmail.com<br/>
+<?php include 'rodape.php'; ?>
 </p>
 
 
 </div>
 </div>
-<?php include 'rodape.php'; ?>
 
 </body>
 </html>

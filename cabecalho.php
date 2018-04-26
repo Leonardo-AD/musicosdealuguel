@@ -10,7 +10,7 @@
 	jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/
 	bootstrap.min.js"></script>
-	<link rel="stylesheet" href="estilo1.css">
+	<link rel="stylesheet" href="css/estilo1.css">
 	<title>Músicos de Aluguel</title>
 </head>
 <body>
@@ -33,7 +33,7 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-main">
 			<div id="posicao">
 			<ul class="nav navbar-nav navbar-rigth">
-				<li><a href="index.php" class="fa fa-home" aria-hidden="true">Home</a></li>
+				<li><a href="../index.php" class="fa fa-home" aria-hidden="true">Home</a></li>
 				<li class="dropdown">
 				<a href="javascript:void(0)" class="fa fa-music" aria-hidden="true" class="dropbtn">Gêneros Musicais</a>
 				<div class="dropdown-content">
@@ -47,9 +47,9 @@
 					<a href="todos.txt" style="color: black;">Todos</a>				
 				</div>
 				</li>
-				<li><a href="indexlog.php" class="fa fa-sign-in" aria-hidden="true">Login</a></li>
 				<li><a href="cadastro.php" class="fa fa-address-card" aria-hidden="true">Cadastre-se</a></li>
 				<li><a href="quemsomos.php" class ="fa fa-users">Quem Somos</a></li>
+				<li><a href="indexlog.php" class="fa fa-sign-in" aria-hidden="true">Login</a></li>
 			</ul>
 		</div>
 		</div>

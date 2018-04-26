@@ -6,7 +6,7 @@ if (!logado()) {
     redirect('login.php');
 } else {
     $iu = $_SESSION['user'];
-    redirect("piu.php?user=$iu");
+    redirect("piu.php?user=$ui");
 }
 
 ?>

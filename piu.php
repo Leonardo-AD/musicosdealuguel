@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="img/logoo.png">
 	<title>Página do Usuário</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
 	<?php include "cabecalho.php"; ?>
@@ -49,7 +49,7 @@
 <?php endfor; ?>
 	</h3>
 	<div id="i">
-		<img src="avatar.png">
+		<img src="img/avatar.png">
 	</div>
 </div>
 
