@@ -33,6 +33,5 @@
 </table>
 <input id="env" type="submit" value="Salvar">
 </form>
-<?php include 'rodape.php'; ?>
 </body>
 </html>

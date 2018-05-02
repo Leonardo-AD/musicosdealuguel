@@ -16,7 +16,8 @@
 	
 <div id="home6">
 	<div class="landing-text">
-		</div></div>
+	</div>
+</div>
 <div class="navbar navbar-inverse navbar-fexed-bottom" role="navigation">
 	<div class="container">
 		<div class="aslap">

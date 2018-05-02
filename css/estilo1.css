@@ -90,13 +90,13 @@ div#texto{
     background-size: cover;
     top: -100px;
 }
-#home6 {
+/*div#home6 {
     display:table;
     position: relative;
     background-size: cover;
     height: 100%;
 }
-
+*/
 a.navbar-brand{
     color: white;
 }
@@ -156,3 +156,4 @@ ul#icone li{
  text-decoration: none;
  display: inline-block;
 }
+

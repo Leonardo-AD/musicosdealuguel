@@ -138,21 +138,7 @@ session_start();
 		
 	</div>
 </div>
-<!-- <div id="home5">
-	<div class="landing-text">
-		<div id="texto">
-			<h3 align="center">Não fique de fora.</h3></br>
-			
-			<p id="p1">
-				Faça login ou cadastre-se agora mesmo e aproveite você também os benefícios de fazer parte do Músicos de aluguel.
-				</p>
-			</div>	
-		</div>
-		</div> -->
-
-
-
-<?php include 'php/rodape.php'; ?>
+<?php include 'rodape.php'; ?>
 </body>
 </html>
 

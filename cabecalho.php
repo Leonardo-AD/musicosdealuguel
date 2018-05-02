@@ -73,6 +73,8 @@
 					</div>        
 					<div class="form-group">
 						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Entrar</button>
+							<a href="cadastro.php" style="margin-left: 430px;">Cadastre-se</a>
+
 					</div>
 				</form>
 			</div>
