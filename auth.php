@@ -8,7 +8,8 @@ $pw = $_POST['senha'];
 if (login($user, $pw)) {
     header('location:indexlog.php');
 } else {
-    header('location:login.php');
+	$_SESSION['flash']=true;
+    header('location:index.php');
 }
 
 ?>

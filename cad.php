@@ -37,8 +37,8 @@ $ngs[] = $ng."\n";
 $ngs_string = implode('', $ngs);
 
 file_put_contents('todos.csv', $ngs_string);*/
-
-header('location: login.php');
+$_SESSION['cad']= true;
+header('location: index.php');
 
 ?>
 <!-- <h1 id="cad">Seja bem vindo, para acessar sua conta clique</h1>

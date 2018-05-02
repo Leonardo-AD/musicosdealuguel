@@ -49,9 +49,33 @@
 				</li>
 				<li><a href="cadastro.php" class="fa fa-address-card" aria-hidden="true">Cadastre-se</a></li>
 				<li><a href="quemsomos.php" class ="fa fa-users">Quem Somos</a></li>
-				<li><a href="indexlog.php" class="fa fa-sign-in" aria-hidden="true">Login</a></li>
+				<li><a href="#myModal" class="fa fa-sign-in" data-toggle="modal">Login</a></li>
 			</ul>
 		</div>
 		</div>
 	</div>
 </nav>
+
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="modal-header">			
+				<h4 class="modal-title">Login</h4>	
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<form action="auth.php" method="post">
+					<div class="form-group">
+						<input type="text" class="form-control" name="login" placeholder="login" required="required">		
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" name="senha" placeholder="senha" required="required">	
+					</div>        
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Entrar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

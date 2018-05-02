@@ -1,6 +1,76 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
+	<style type="text/css">
+		body {
+		font-family: 'Varela Round', sans-serif;
+	}
+	.modal-login {		
+		color: #636363;
+		width: 350px;
+	}
+	.modal-login .modal-content {
+		padding: 20px;
+		border-radius: 5px;
+		border: none;
+	}
+	.modal-login .modal-header {
+		border-bottom: none;   
+        position: relative;
+        justify-content: center;
+	}
+	.modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+		margin: 5px 0 -15px;
+	}
+	.modal-login .form-control:focus {
+		border-color: #70c5c0;
+	}
+	.modal-login .form-control, .modal-login .btn {
+		min-height: 40px;
+		border-radius: 3px; 
+	}
+	.modal-login .close {
+    position: absolute;
+		top: -5px;
+		right: -5px;
+	}	
+	.modal-login .modal-footer {
+		background: #ecf0f1;
+		border-color: #dee4e7;
+		text-align: center;
+    justify-content: center;
+		margin: 0 -20px -20px;
+		border-radius: 5px;
+		font-size: 13px;
+	}
+	.modal-login .modal-footer a {
+		color: #999;
+	}		
+	.modal-login.modal-dialog {
+		margin-top: 60px;
+	}
+    .modal-login .btn {
+        color: #fff;
+        border-radius: 20px;
+				background: #23415c;
+				text-decoration: none;
+				transition: all 0.4s;
+        line-height: normal;
+        border: none;
+        width: 100px;
+    }
+	.modal-login .btn{
+		text-align: center;
+		margin-left: 220px;
+		outline: none;
+	}
+	.trigger-btn {
+		display: inline-block;
+		margin: 100px auto;
+	}
+	</style>
 
 	<link rel="shortcut icon" href="img/logoo.png">
 
@@ -21,7 +91,9 @@
 <body>
 
 <?php 
-include 'cabecalho.php'; 
+include 'cabecalho.php';
+session_start();
+
 ?>
 <div id="home">
 	<div class="landing-text">
@@ -31,7 +103,12 @@ include 'cabecalho.php';
 		
 		Se você procura contratar um músico para se apresentar em seu comércio ou evento,</br> ou é um músico e quer ser contratado, você está no lugar certo.
 	<table id="tbusca">
-		
+		<?php
+			if ($_SESSION['flash']==true) {
+		 		echo "<script>alert('login ou senha incorretos!');</script>";
+		 		$_SESSION['flash']=false;
+	 		} 
+ 		?>
 	</table>
 	</p>
 	</div>
@@ -72,6 +149,9 @@ include 'cabecalho.php';
 			</div>	
 		</div>
 		</div> -->
+
+
+
 <?php include 'php/rodape.php'; ?>
 </body>
 </html>
