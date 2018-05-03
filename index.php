@@ -1,8 +1,8 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-	<style type="text/css">
-		body {
+	<!-- <style type="text/css">
+	body {
 		font-family: 'Varela Round', sans-serif;
 	}
 	.modal-login {		
@@ -70,7 +70,7 @@
 		display: inline-block;
 		margin: 100px auto;
 	}
-	</style>
+	</style> -->
 
 	<link rel="shortcut icon" href="img/logoo.png">
 

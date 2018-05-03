@@ -12,6 +12,7 @@
 	bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/estilo1.css">
 	<title>Músicos de Aluguel</title>
+
 </head>
 <body>
 
