@@ -38,14 +38,17 @@
     $arr[$i] = $data[$i];
 		}
 	?>
-
+<br>
 <div id="primeiro">
 
 	<h3>
 	
-		<?php for($i = 0; $i < sizeof($data); $i++): ?>
-<?= $data[0][$i]."<br/>
-<a href='logout.php'>Deslogar</a></br></br>"."Gênero Musical: ".$data[0][1] ?>
+<?php for($i = 0; $i < sizeof($data); $i++): ?>
+<?= $data[0][$i] ?> <a href='updatename.php'><br/> 
+<a href='logout.php'>Deslogar</a></br></br>Gênero Musical: <?= $data[0][1] ?><br> 
+
+<a href='updategen.php' style="margin-right:-450px;float: right;margin-top: -110px; "><i class="far fa-edit" ></i></a>
+
 <?php endfor; ?>
 	</h3>
 	<div id="i">
@@ -67,7 +70,7 @@
 
 <div id="quinto">
 
-</div>
+</div><br><br>
 <?php include 'rodape.php'; ?>
 
 </body>
