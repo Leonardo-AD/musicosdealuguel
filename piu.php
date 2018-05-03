@@ -19,17 +19,12 @@
 				redirect('index.php');
 			}
 		}
-		/*else{
-			if($_GET['user']){
+		else{
+			
 				$u = $_GET['user'];
 			}
-			else{
-				$u = $_SESSION['user'];
-			}
-		}
-		else{
-			$u = $_SESSION['user']
-		}*/
+			
+			
 		$filename = "$u.csv";
 		$data = file($filename);
 		$arr =[];
@@ -43,11 +38,15 @@
 
 	<h3>
 	
+
+
+
+
 <?php for($i = 0; $i < sizeof($data); $i++): ?>
-<?= $data[0][$i] ?> <a href='updatename.php'><br/> 
+<?= $data[0][$i] ?><br>
 <a href='logout.php'>Deslogar</a></br></br>Gênero Musical: <?= $data[0][1] ?><br> 
 
-<a href='updategen.php' style="margin-right:-450px;float: right;margin-top: -110px; "><i class="far fa-edit" ></i></a>
+<a href='update.php?linha=<?=$i?>' style="margin-right:-425px;float: right;margin-top: -110px; "><i class="far fa-edit" ></i></a>
 
 <?php endfor; ?>
 	</h3>
