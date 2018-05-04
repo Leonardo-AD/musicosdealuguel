@@ -48,8 +48,9 @@
 					<a href="todos.txt" style="color: black;">Todos</a>				
 				</div>
 				</li>
-				<li><a href="cadastro.php" class="fa fa-address-card" aria-hidden="true">Cadastre-se</a></li>
+				<!-- <li><a href="cadastro.php" class="fa fa-address-card" aria-hidden="true">Cadastre-se</a></li> -->
 				<li><a href="quemsomos.php" class ="fa fa-users">Quem Somos</a></li>
+				<li><a href="#myModalc" class="fa fa-sign-in" data-toggle="modal">Cadastre-se</a></li>
 				<li><a href="#myModal" class="fa fa-sign-in" data-toggle="modal">Login</a></li>
 			</ul>
 		</div>
@@ -76,6 +77,36 @@
 						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Entrar</button>
 							<a href="cadastro.php" style="margin-left: 400px;">Cadastre-se</a>
 
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="myModalc" class="modal fade">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="modal-header">			
+				<h4 class="modal-title">Cadastre-se</h4>	
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<form action="cad.php" method="post">
+					<div class="form-group">
+						<input type="text" class="form-control" name="novo_login" placeholder="Login" required="required">		
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" name="nova_senha" placeholder="Senha" required="required">	
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" name="novo_nome" placeholder="Nome" required="required">		
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" name="novo_genero" placeholder="Gênero" required="required">		
+					</div>        
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Cadastre</button>
 					</div>
 				</form>
 			</div>

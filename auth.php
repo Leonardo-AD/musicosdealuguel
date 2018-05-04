@@ -6,7 +6,7 @@ $user = $_POST['login'];
 $pw = $_POST['senha'];
 
 if (login($user, $pw)) {
-    header('location:indexlog.php');
+    header('location:piu.php');
 } else {
 	$_SESSION['flash']=true;
     header('location:index.php');
