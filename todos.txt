@@ -22,3 +22,5 @@ aa - aa
  - 
  - 
 Anderson - rock
+luh - samba
+zuck - Rap
