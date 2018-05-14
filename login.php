@@ -4,11 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel="shortcut icon" href="img/logoo.png">
 </head>
 <body>
 <?php include "cabecalho.php"; ?>
+    <?php
+    // session_start();
+    if($_SESSION['logado']){
+        header('location: piu.php');
+    }
+    ?>
+
 <h1 id="login">Login</h1>
 <form id="login" action="auth.php" method="POST">
 	<table>
@@ -21,11 +28,10 @@
 		<td><input type="password" name="senha" placeholder="Digite Sua Senha" required></td>
 		</tr>
 	</table>
-	<input id="env" type="submit" value="Entrar">
-	<h4>Ainda não tem cadastro? </h4>
-<a style="margin-left:50%" href="cadastro.php">Cadastre-se</a>
+	<input type="submit" name="entrar">
+<a href="cadastro.php">Cadastra-se</a>
 </form>
 
-<?php include "rodape.php"; ?>
+<?php include 'rodape.php'; ?>
 </body>
 </html>
