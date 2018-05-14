@@ -184,6 +184,7 @@ body {
     }
     .modal-login .form-control, .modal-login .btn {
         min-height: 40px;
+        width: 40%;
         border-radius: 3px; 
     }
     .modal-login .close {
@@ -214,7 +215,7 @@ body {
                 transition: all 0.4s;
         line-height: normal;
         border: none;
-        width: 100px;
+        width: 30%;
     }
     .modal-login .btn{
         text-align: center;

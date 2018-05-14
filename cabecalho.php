@@ -84,30 +84,22 @@
 	</div>
 </div>
 
+
 <div id="myModalc" class="modal fade">
 	<div class="modal-dialog modal-login">
 		<div class="modal-content">
 			<div class="modal-header">			
-				<h4 class="modal-title">Cadastre-se</h4>	
+			<!-- 	<h4 class="modal-title">Selecione o Perfil</h4>	 -->
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			</div>
-			<div class="modal-body">
-				<form action="cad.php" method="post">
+				        
 					<div class="form-group">
-						<input type="text" class="form-control" name="novo_login" placeholder="Login" required="required">		
-					</div>
-					<div class="form-group">
-						<input type="password" class="form-control" name="nova_senha" placeholder="Senha" required="required">	
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" name="novo_nome" placeholder="Nome" required="required">		
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" name="novo_genero" placeholder="Gênero" required="required">		
-					</div>        
-					<div class="form-group">
-						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Cadastre</button>
-					</div>
+						<h4 class="modal-title">Selecione o Perfil</h4>
+							
+						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top: 8%;margin-left:70%; margin-top:10%;">Musico</button>
+					
+						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:-8%;margin-right:-100%;margin-left:-0%;">Contratante</button>
+
+				</div>
 				</form>
 			</div>
 		</div>
