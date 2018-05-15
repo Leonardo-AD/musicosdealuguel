@@ -95,9 +95,13 @@
 					<div class="form-group">
 						<h4 class="modal-title">Selecione o Perfil</h4>
 							
-						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top: 8%;margin-left:70%; margin-top:10%;">Musico</button>
+						<a href= "pag-musico.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top: 8%;margin-left:70%; margin-top:10%;">		Musico
+						</a>
 					
-						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:-8%;margin-right:-100%;margin-left:-0%;">Contratante</button>
+					
+						<a href="pag-contratante.php"
+						type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:-8%;margin-right:-100%;margin-left:-0%;">Contratante
+						</a>
 
 				</div>
 				</form>
