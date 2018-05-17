@@ -9,22 +9,21 @@
 
 	include 'init.php';
 
-	$nw = $_POST['new_user'];
-	$npw = $_POST['new_pw'];
-	$nw
-	$npw
-	$nname
-	$nsn
-	$nem
-	$gm
-	$dn
-	$ncpf
+	$npw = $_POST['senha'];
+	$nname = $_POST['nome'];
+	$nsn = $_POST['sobrenome'];
+	$nemail = $_POST['email'];
+	$ntel = $_POST['telefone'];
+	$nend = $_POST['endereco'];
+	$ngenero = $_POST['genero'];
+	$ndn = $_POST['data'];
+	$ncpf = $_POST['cpf'];
+	$cadastrar = "INSERT INTO `MUSICO` (`SENHA`, 'NOME', 'SOBRENOME', 'EMAIL', 'TELEFONE', 'ENDERECO', 'GENERO', 'DATA_DE_NASCIMENTO', 'CPF') VALUES ('$npw', '$nname', '$nsn', '$nemail', '$ntel', '$nend', '$ngenero', '$ndn', '$ncpf')";
 	
-	$cadastrar = "INSERT INTO `MUSICO` (`USUARIO`, `SENHA`, 'NOME', 'SOBRENOME', 'EMAIL', 'GENERO_MUSICAL', 'DATA_DE_NASCIMENTO', 'CPF') VALUES ('$nw', '$npw', '$nname', '$nsn', '$nem', '$gm', '$dn', '$ncpf')";
+
 	$cadastrou = mysqli_query($conecta, $cadastrar);
 
 	mysqli_close($conecta);
-
     if($cadastrou){
         echo "Músico cadastrado com sucesso!";
     }

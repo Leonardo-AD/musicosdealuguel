@@ -10,7 +10,7 @@
 <main>
 	<div class="container">
    
-    <form action="cad-contratante.php" method="post">
+    <form action="cad-contratante.php" method="POST">
       <div class="form-row">
         <div class="form-group col-md-12">
           <h2>Cadastro de Contratantes</h2>
@@ -20,54 +20,39 @@
       <div class="form-row">
         <div class="form-group col-md-8">
           <label for="nome">Nome:</label>
-          <input type="text" class="form-control" id="nome" placeholder="Nome do Contratante" name="nome" required>
+          <input type="text" class="form-control" id="nome" placeholder="Nome" name="nome" required>
         </div>
 
         <div class="form-group col-md-4">
           <label for="sobrenome">sobrenome:</label>
-          <input type="text" class="form-control" id="sobrenome" placeholder="seu sobrenome" name="" required>
+          <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome" name="sobrenome" required>
         </div>
       </div>
 
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="email">Email:</label>
-          <input type="text" class="form-control" id="email" placeholder="seu email" name="email" required>
+          <input type="text" class="form-control" id="email" placeholder="E-mail" name="email" required>
         </div>
 
         <div class="form-group col-md-6">
-          <label for="cnpj">CNPJ:</label>
-          <input type="text" class="form-control" id="cnpj" placeholder="Numero de registro" name="cnpj" required>
+          <label for="cnpj">CNPJ / CPF:</label>
+          <input type="text" class="form-control" id="cnpj" placeholder="Informe o CNPJ ou CPF" name="cnpj" required>
         </div>
       </div>
 
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="senha">Senha:</label>
-          <input type="text" class="form-control" id="senha" placeholder="Sua senha" name="senha" required>
-        </div>
-
-        <div class="form-group col-md-4">
-          <label for="cpf">CPF:</label>
-          <input type="text" class="form-control" id="cpf" placeholder="CPF" name="cpf" required>
+          <input type="text" class="form-control" id="senha" placeholder="Defina sua senha" name="senha" required>
         </div>
 
         <div class="form-group col-md-2">
-          <label for="bairro">Bairro:</label>
-          <input type="text" class="form-control" id="bairro" placeholder="Bairro" name="bairro" required>
+          <label for="bairro">Endereço:</label>
+	          <input type="text" class="form-control" id="bairro" placeholder="Rua, Nº, Bairro e Cidade" name="endereco" required>
         </div>
       </div>
 
-      <div class="form-row">
-        <div class="form-group col-md-5">
-          <label for="nomeRes">Cidade:</label>
-          <input type="text" class="form-control" id="cidade" placeholder="cidade" name="cidade" required>
-        </div>
-      </div>
-
-      
-    
-      
       <div class="form-row">
         <div class="form-group col-md-2">
 	<br><button type="submit" class="btn btn-primary">Cadastrar</button></br>

@@ -9,13 +9,15 @@
 
 	include 'init.php';
 
-	$nname
-	$nsn
-	$nem
-	$npw = $_POST['new_pw'];
-	$ncpf
+	$nem = $_POST['email'];
+	$npw = $_POST['senha'];
+	$nname = $_POST['nome'];
+	$nsn = $_POST['sobrenome'];
+	$nend = $_POST['endereco'];
+	$ncnpj = $_POST['cnpj'];
+	$ntel = $_POST['telefone'];
 	
-	$cadastrar = "INSERT INTO `CONTRATANTE` (`NOME`, 'SOBRENOME', 'EMAIL', 'SENHA', 'CPF') VALUES ('$nname', '$nsn', '$nem', '$npw', '$ncpf')";
+	$cadastrar = "INSERT INTO `CONTRATANTE` ('EMAIL', 'SENHA', `NOME`, 'SOBRENOME', 'ENDERECO, 'CNPJ', 'TELEFONE') VALUES ('$nen', '$npw', '$nname', '$nsn', '$nend', '$ncnpj', '$ntel')";
 	$cadastrou = mysqli_query($conecta, $cadastrar);
 
 	mysqli_close($conecta);

@@ -24,7 +24,7 @@
 
         <div class="form-group col-md-4">
           <label for="sobrenome">sobrenome:</label>
-          <input type="text" class="form-control" id="sobrenome" placeholder="seu sobrenome" name="" required>
+          <input type="text" class="form-control" id="sobrenome" placeholder="seu sobrenome" name="sobrenome" required>
         </div>
       </div>
 
@@ -47,7 +47,7 @@
 
         <div class="form-group col-md-2">
           <label for="gênero">Gênero Musical:</label>
-          <input type="text" class="form-control" id="Gênero" placeholder="gênero" name="gênero" required>
+          <input type="text" class="form-control" id="Gênero" placeholder="gênero" name="genero" required>
         </div>
       </div>
 
