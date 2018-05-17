@@ -63,19 +63,19 @@
 		<div class="modal-content">
 			<div class="modal-header">			
 				<h4 class="modal-title">Login</h4>	
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 			</div>
 			<div class="modal-body">
 				<form action="auth.php" method="post">
 					<div class="form-group">
-						<input type="text" class="form-control" name="login" placeholder="login" required="required">		
+						<input type="text" class="form-control" name="login" placeholder="E-mail" required="required">		
 					</div>
 					<div class="form-group">
-						<input type="password" class="form-control" name="senha" placeholder="senha" required="required">	
+						<input type="password" class="form-control" name="senha" placeholder="Senha" required="required">	
 					</div>        
 					<div class="form-group">
 						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Entrar</button>
-							<a href="cadastro.php" style="margin-left: 400px;">Cadastre-se</a>
+							<!-- <a href="#myModalc" style="margin-left: 400px;">Cadastre-se</a> -->
 
 					</div>
 				</form>
@@ -93,15 +93,12 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				        
 					<div class="form-group">
-						<h4 class="modal-title">Selecione o Perfil</h4>
+						<h4 class="modal-title">Cadastrar-se como:</h4>
 							
-						<a href= "pag-musico.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top: 8%;margin-left:70%; margin-top:10%;">		Musico
-						</a>
-					
+						<a href= "pag-musico.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top: 8%;margin-left:60%; margin-top:10%;">Músico</a>
 					
 						<a href="pag-contratante.php"
-						type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:-8%;margin-right:-100%;margin-left:-0%;">Contratante
-						</a>
+						type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:-8%;margin-right:-100%;margin-left:10%;">Contratante</a>
 
 				</div>
 				</form>
