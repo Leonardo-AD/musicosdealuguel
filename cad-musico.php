@@ -18,6 +18,7 @@
 	$ngenero = $_POST['genero'];
 	$ndn = $_POST['data'];
 	$ncpf = $_POST['cpf'];
+
 	$cadastrar = "INSERT INTO `MUSICO` (`SENHA`, 'NOME', 'SOBRENOME', 'EMAIL', 'TELEFONE', 'ENDERECO', 'GENERO', 'DATA_DE_NASCIMENTO', 'CPF') VALUES ('$npw', '$nname', '$nsn', '$nemail', '$ntel', '$nend', '$ngenero', '$ndn', '$ncpf')";
 	
 
@@ -28,7 +29,7 @@
         echo "Músico cadastrado com sucesso!";
     }
     else{
-        echo "<script language='javascript' type='text/javascript'>alert('Login e/ou senha inválidos');window.location.href='cadastro.php';</script>";
+        echo "<script language='javascript' type='text/javascript'>alert('Login e/ou senha inválidos');window.location.href='cad-musico.php';</script>";
     die();
     }
 	?>

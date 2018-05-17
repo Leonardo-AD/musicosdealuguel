@@ -24,7 +24,7 @@
         </div>
 
         <div class="form-group col-md-4">
-          <label for="sobrenome">sobrenome:</label>
+          <label for="sobrenome">Sobrenome:</label>
           <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome" name="sobrenome" required>
         </div>
       </div>
@@ -35,6 +35,13 @@
           <input type="text" class="form-control" id="email" placeholder="E-mail" name="email" required>
         </div>
 
+      <div class="form-row">
+        <div class="form-group col-md-8">
+          <label for="telefone">Telefone::</label>
+          <input type="text" class="form-control" id="telefone" placeholder="Telefone" name="telefone" required>
+        </div>
+      </div>
+
         <div class="form-group col-md-6">
           <label for="cnpj">CNPJ / CPF:</label>
           <input type="text" class="form-control" id="cnpj" placeholder="Informe o CNPJ ou CPF" name="cnpj" required>
@@ -44,7 +51,7 @@
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="senha">Senha:</label>
-          <input type="text" class="form-control" id="senha" placeholder="Defina sua senha" name="senha" required>
+          <input type="password" class="form-control" id="senha" placeholder="Defina sua senha" name="senha" required>
         </div>
 
         <div class="form-group col-md-2">

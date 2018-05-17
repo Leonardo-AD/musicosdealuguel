@@ -26,7 +26,7 @@
         echo "Contratante cadastrado com sucesso!";
     }
     else{
-        echo "<script language='javascript' type='text/javascript'>alert('Login e/ou senha inválidos');window.location.href='cadastro.php';</script>";
+        echo "<script language='javascript' type='text/javascript'>alert('Login e/ou senha inválidos');window.location.href='cad-contratante.php';</script>";
     die();
     }
 	?>
