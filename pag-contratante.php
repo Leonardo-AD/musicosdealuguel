@@ -38,13 +38,13 @@
       <div class="form-row">
         <div class="form-group col-md-8">
           <label for="telefone">Telefone::</label>
-          <input type="text" class="form-control" id="telefone" placeholder="Telefone" name="telefone" required>
+          <input type="text" class="form-control" id="telefone" placeholder="Telefone (Somente números)" name="telefone" required>
         </div>
       </div>
 
         <div class="form-group col-md-6">
           <label for="cnpj">CNPJ / CPF:</label>
-          <input type="text" class="form-control" id="cnpj" placeholder="Informe o CNPJ ou CPF" name="cnpj" required>
+          <input type="text" class="form-control" id="cnpj" placeholder="Informe o CNPJ ou CPF (Somente números)" name="cnpj" required>
         </div>
       </div>
 

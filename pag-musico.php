@@ -42,13 +42,13 @@
 
         <div class="form-group col-md-4">
           <label for="cpf">CPF:</label>
-          <input type="text" class="form-control" id="cpf" placeholder="CPF" name="cpf" required>
+          <input type="text" class="form-control" id="cpf" placeholder="CPF (Somente números)" name="cpf" required>
         </div>
         
         <div class="form-row">
           <div class="form-group col-md-4">
             <label for="telefone">Telefone:</label>
-            <input type="text" class="form-control" id="telefone" placeholder="Telefone" name="telefone" required>
+            <input type="text" class="form-control" id="telefone" placeholder="Telefone (Somente números)" name="telefone" required>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
       <div class="form-row">
         <div class="form-group col-md-5">
           <label for="data">Data de Nascimento:</label>
-          <input type="text" class="form-control" id="data" placeholder="Data de Nascimento" name="data" required>
+          <input type="text" class="form-control" id="data" placeholder="Data de Nascimento (Somente números)" name="data" required>
         </div>
       </div>
 
