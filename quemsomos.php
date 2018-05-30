@@ -1,78 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Quem Somos</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="shortcut icon" href="img/logoo.png">
 
-</head>
-<body>
+<?php include 'cabecalho.php';?>
 
-<?php include "cabecalho.php"; ?>
+<div class="container" id="ic">
+    <div class="row">
+      <div class="box">
+        <div class="col-md-4">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+            <h4>Sobre</h4>
+            <div class="icon">
+              <i class="fa fa-users fa-3x"></i>
+            </div>
+            <p style="color: black; font-size: 13pt; text-align: justify; text-indent: 30px;">A plataforma Músicos de Aluguel chegou para inovar. A ideia surgiu para resolver o problema da limitação na hora de contratar um músico ou grupo musical para fazer apresentações em bares e restaurantes ou em festas e eventos. Mostramos os músicos mais próximos de você para que a contratação seja ainda mais rápida. Cadastre-se, Procure, encontre e contrate. Uma plataforma fácil de usar e sem limitações na hora de contratar.</p>
+            <!-- <div class="ficon">
+              <a href="#" class="btn btn-default" role="button">Read more</a>
+            </div> -->
+          </div>
+        </div>
 
-<div id="qs">
-<div id="sobre">
+        <div class="col-md-4">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
+            <h4>Missão</h4>
+            <div class="icon">
+              <i class="fa fa-globe fa-3x"></i>
+            </div>
+            <p style="color: black; font-size: 13pt; text-align: justify; text-indent:30px;">Músicos de Aluguel é uma plataforma web que presta serviços de contratação musical destinados a atender as necessidades de cada cliente no Brasil com qualificação, confiabilidade e recursos de qualidade com custos adequados a seu negócio.</p>
+            <!-- <div class="ficon">
+              <a href="#" class="btn btn-default" role="button">Read more</a>
+            </div> -->
+          </div>
+        </div>
 
-<h3>Sobre</h3>
+        <div class="col-md-4">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
+            <h4>Valores</h4>
+            <div class="icon">
+              <i class="fa fa-flag fa-3x"></i>
+            </div>
+            <p style="color: black; font-size: 13pt; text-align: justify; text-indent:30px;">
+            Proatividade, Melhoria constante e contínua, Diversidade, Colaboração, Ética, Respeito, Honestidade e Compromisso com nossos clientes. Só é bom para nós, se for bom para o cliente. Trabalhamos ao máximo para o aperfeiçoamento das relações com nossos clientes através de princípios éticos.</p>
+            <!-- <div class="ficon">
+              <a href="#" class="btn btn-default" role="button">Read more</a>
+            </div> -->
+          </div>
 
-<p id="ident">
+        </div>
 
-	A plataforma Músicos de Aluguel chegou para inovar. Ela surgiu para resolver o problema da limitação na hora de contratar um músico ou grupo musical para fazer apresentações em bares e restaurantes ou em festas e eventos. Para utilizar os serviços do site basta clicar em cadastre-se na página inicial, se você já é cadastrado basta realizar o login também na página inicial. Se está pensando em contratar músicos ou grupos musicais você vai se surpreender com a diversidade de estilos musicais presente no nosso site, mostramos os músicos mais próximos de você para que a contratação seja ainda mais rápida. Cadastre-se, Procure, encontre e contrate. Uma plataforma fácil de usar e sem limitações na hora de contratar.
+      </div>
+    </div>
+  </div>
 
-</p>
-	<h4>Entre em contato conosco através do E-mail: musicosdealuguel@gmail.com</h4></br>
-
-<h3>Missão</h3>
-
-<p id="ident">
-
-	Músicos de Aluguel é uma plataforma web que presta serviços de contratação musical destinados a atender as necessidades de cada cliente no Brasil com qualificação, confiabilidade e recursos de qualidade com custos adequados a seu negócio.
-
-</p></br>
-
-<h3>Valores</h3>
-
-<p id="valores">
-
-
-	Proatividade.<br/>
-	Melhoria contínua.<br/>
-	Diversidade e Colaboração.<br/>
-	Ética, Respeito e Honestidade.<br/>
-	Compromisso com nossos clientes.<br/>
-	Só é bom para nós, se for bom para o cliente.<br/>
-	Aperfeiçoamento das relações com nossos clientes.<br/>
+  <hr>
 
 
-</p></br>
-
-<h3>Desenvolvedores</h3></br>
+<h3 id="dev">Desenvolvedores</h3> 
 
 
 <figure class="grupo">
 
 <img src="img/grupo.jpg">
-	<figcaption>
-		<h4>Lucielly Fernanda - Rafael Vieira - Anderson dos Santos - Leonardo Alves - Tarcísio Marques</h4>
-	</figcaption>
+  <figcaption>
+    <h4>Lucielly Fernanda - Rafael Vieira - Anderson dos Santos - Leonardo Alves - Tarcísio Marques</h4>
+  </figcaption>
 </figure></br>
 
 
-<p id="info">
-
-	Lucielly Fernanda - E-mail: luciellyx5@gmail.com<br/>
-	Rafael Vieira - E-mail: rafaelvieiraoffiline@gmail.com<br/>
-	Anderson dos Santos - E-mail: aslap7xx@gmail.com<br/>
-	Leonardo Alves - E-mail: leonardo.alves779@gmail.com<br/>
-	Tarcísio Marques - E-mail: tarcisiomarques00000@gmail.com<br/>
-<?php include 'rodape.php'; ?>
-</p>
-
+  <div id="inf">
+      <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i> Lucielly Fernanda - E-mail: luciellyx5@gmail.com</p>
+      <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i> Rafael Vieira - E-mail: rafaelvieiraoffiline@gmail.com</p>
+      <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i> Anderson dos Santos - E-mail: aslap7xx@gmail.com</p>
+      <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i> Leonardo Alves - E-mail: leonardo.alves779@gmail.com</p>
+      <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i> Tarcísio Marques - E-mail: tarcisiomarques00000@gmail.com</p>
+  </div>
 
 </div>
 </div>
+
+<hr>
+
+  <?php 
+  	include 'rodape.php';
+  ?>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="js/fliplightbox.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="js/functions.js"></script>
+  <script type="text/javascript">
+    $('.portfolio').flipLightBox()
+  </script>
+  <script src="contactform/contactform.js"></script>
 
 </body>
+
 </html>
