@@ -4,6 +4,16 @@
 <body>
   <?php include "cabecalho.php";?>
 
+<script>
+    function validar(dom,tipo){
+	    switch(tipo){
+        	case'num':var regex=/[A-Za-z]/g;break;
+        	case'text':var regex=/\d/g;break;
+	    }
+	    dom.value=dom.value.replace(regex,'');
+    }
+</script>
+
 <div class="container" id="corpo">
 
   <h2 class="pagm">Cadastro de Músicos</h2>
@@ -11,35 +21,35 @@
       <div class="form-group" id="pri">
         <label class="control-label col-sm-2" for="name">Nome:</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="name" placeholder="Nome artístico ou da Banda" name="name">
+          <input type="text" class="form-control" id="name" placeholder="Nome artístico ou da Banda" name="name" onkeyup="validar(this,'text');" required>
         </div>
       </div>
       
       <div class="form-group" id="sec">
         <label class="control-label col-sm-2" for="email">E-mail:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="email" placeholder="E-mail" name="email">
+          <input type="text" class="form-control" id="email" placeholder="E-mail" name="email" required>
         </div>
       </div>
 
       <div class="form-group" id="ter">
         <label class="control-label col-sm-2" for="pwd">Senha:</label>
         <div class="col-sm-10">          
-          <input type="password" class="form-control" id="pwd" placeholder="Defina sua senha" name="pwd">
+          <input type="password" class="form-control" id="pwd" placeholder="Defina sua senha" name="pwd" required>
         </div>
       </div>
 
       <div class="form-group" id="qua">
         <label class="control-label col-sm-2" for="cpf">CPF:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="cpf" placeholder="CPF (apenas números)" name="cpf">
+          <input type="text" class="form-control" id="cpf" placeholder="CPF (apenas números)" name="cpf" onkeyup="validar(this,'num');" maxlength="11" required>
         </div>
       </div>
 
       <div class="form-group" id="qui">
         <label class="control-label col-sm-2" for="cel">Telefone:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="cel" placeholder="Telefone (apenas números)" name="cel">
+          <input type="text" class="form-control" id="cel" placeholder="Telefone (apenas números)" name="cel" onkeyup="validar(this,'num');" maxlength="13" required>
         </div>
       </div> 
       
@@ -83,15 +93,15 @@
 
           <select name="mes">
             <option value="0">Mês</option>
-            <option value="1">Janeiro</option>
-            <option value="2">Fevereiro</option>
-            <option value="3">Março</option>
-            <option value="4">Abril</option>
-            <option value="5">Maio</option>
-            <option value="6">Junho</option>
-            <option value="7">Julho</option>
-            <option value="8">Agosto</option>
-            <option value="9">Setembro</option>
+            <option value="01">Janeiro</option>
+            <option value="02">Fevereiro</option>
+            <option value="03">Março</option>
+            <option value="04">Abril</option>
+            <option value="05">Maio</option>
+            <option value="06">Junho</option>
+            <option value="07">Julho</option>
+            <option value="08">Agosto</option>
+            <option value="09">Setembro</option>
             <option value="10">Outubro</option>
             <option value="11">Novembro</option>
             <option value="12">Dezembro</option>
@@ -204,7 +214,7 @@
       <div class="form-group" id="set">
         <label class="control-label col-sm-2" for="address">Endereço:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="address" placeholder="Endereço" name="address">
+          <input type="text" class="form-control" id="address" placeholder="Endereço" name="address" required>
         </div>
       </div>     
       
@@ -212,7 +222,7 @@
         <label class="control-label col-sm-2" for="gen">Gênero Musical:</label>
         <div class="col-sm-10" id="gen">          
           <select class="selectpicker" name="gen">
-            <option>Gênero</option>           
+            <option value="">Gênero</option>           
             <option>Eletrônico</option>
             <option>Hip Hop</option>
             <option>MPB</option>
