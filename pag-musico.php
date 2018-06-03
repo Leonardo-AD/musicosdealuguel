@@ -247,6 +247,12 @@
         </div>
       </div>
 
+      <script>
+                function funcao3(){alert("Escolha um gênero musical principal para se apresentar quando for contratado.");}
+            </script>
+                
+            <input type="button" onclick="funcao3()" id="duvidagenero" value="?" />
+
       <div class="form-group">        
         <div class="col-sm-offset-2 col-sm-10">
           <button type="submit" class="btn btn-default" id="btcad">Cadastrar</button>
