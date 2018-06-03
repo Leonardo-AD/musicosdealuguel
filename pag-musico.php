@@ -43,6 +43,11 @@
         <label class="control-label col-sm-2" for="cpf">CPF:</label>
         <div class="col-sm-10">          
           <input type="text" class="form-control" id="cpf" placeholder="CPF (apenas números)" name="cpf" onkeyup="validar(this,'num');" maxlength="11" required>
+          <script>
+                function funcao1(){alert("Usamos seu CPF para confirmarmos que você é de fato uma pessoa física.");}
+            </script>
+                
+            <input type="button" onclick="funcao1()" id="duvida" value="?" />
         </div>
       </div>
 
@@ -210,6 +215,12 @@
           </select>
         </div>
       </div>
+
+      <script>
+                function funcao2(){alert("Usamos sua data de nascimento para melhorar seu relacionamento com a plataforma.");}
+            </script>
+                
+            <input type="button" onclick="funcao2()" id="duvidaborn" value="?" />
 
       <div class="form-group" id="set">
         <label class="control-label col-sm-2" for="address">Endereço:</label>
