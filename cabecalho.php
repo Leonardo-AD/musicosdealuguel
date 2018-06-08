@@ -53,7 +53,7 @@
           <a href="#">Reggae</a>
           <a href="#">Rock</a>
           <a href="#">Sertanejo</a> 
-          <a href="todos.txt">Todos</a>       
+          <a href="todos.php">Todos</a>       
         </div>
         </li>
 

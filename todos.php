@@ -1,33 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Gêneros</title>
-	<link rel="shortcut icon" href="img/logoo.png">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<?php include 'cabecalho.php'; ?>
+<?php
 
-</head>
-<body>
+include 'init.php';
 
-	<?php 
+ $conectou = mysqli_query($conecta, "SELECT * FROM MUSICO") or die("erro ao selecionar");
 
-		$a=file('todos.txt');
-		$str ="";
-		foreach ($a as $key => $value) {
-			$str .= $a[$key];
-		}
-		// $c=implode('', $a);
-		$b=explode(PHP_EOL, $str);
-	?>		
-		
-<div id="lista">
-	<h1>Gêneros Cadastrados</h1>
-	
-		<?php for($i = 0; $i < sizeof($b); $i++): ?>
-<li><?= $b[$i] ?>
-<?php endfor; ?>
+ while($linha = mysqli_fetch_array($conectou)){
+            $nome = $linha['NOME'];
+            $sobrenome = $linha['SOBRENOME'];
+            $email = $linha['EMAIL'];
+            $telefone = $linha['TELEFONE'];
+            $genero = $linha['GENERO_MUSICAL'];
 
-</div>		
-</body>
-</html>
+            echo $nome,PHP_EOL;
+            echo $sobrenome,PHP_EOL;
+            echo $email,PHP_EOL;
+            echo $telefone,PHP_EOL;
+            echo $genero,PHP_EOL;
+}
+
+?>
