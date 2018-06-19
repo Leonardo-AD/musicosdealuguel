@@ -2,7 +2,7 @@
 
 session_start();
 
-$conecta = mysqli_connect('localhost', 'id5300911_musicosdealuguel', 'projeto2018') or die ("Erro ao conectar ao banco");
+$conecta = mysqli_connect('localhost', 'root', 'id5300911_musicosdealuguel', 'projeto2018') or die ("Erro ao conectar ao banco");
 $db = mysqli_select_db($conecta, "id5300911_musicos");
 
 function login ($user, $pw){
