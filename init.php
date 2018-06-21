@@ -2,8 +2,8 @@
 
 session_start();
 
-$conecta = mysqli_connect('localhost', 'root', 'id5300911_musicosdealuguel', 'projeto2018') or die ("Erro ao conectar ao banco");
-$db = mysqli_select_db($conecta, "id5300911_musicos");
+$conecta = mysqli_connect('localhost', 'musicos', 'projeto2018') or die ("Erro ao conectar ao banco");
+$db = mysqli_select_db($conecta, "musicos");
 
 function login ($user, $pw){
 	$users = file('users-pws.txt');
@@ -20,11 +20,11 @@ function login ($user, $pw){
 }
 
 function logado() {
-    return isset($_SESSION['user']);
+    return isset($_SESSION['user-logged']);
 }
 
-function sair() {
-    unset($_SESSION['user']);
+function logout() {
+    unset($_SESSION['EMAIL']);
 }
 
 function redirect($pagina) {

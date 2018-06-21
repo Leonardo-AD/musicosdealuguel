@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Musicos de aluguel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h2>Lista de Musicos</h2>
+
+
 <?php
 
 include 'init.php';
@@ -11,11 +26,19 @@ include 'init.php';
             $telefone = $linha['TELEFONE'];
             $genero = $linha['GENERO_MUSICAL'];
 
-            echo $nome,PHP_EOL;
-            echo $sobrenome,PHP_EOL;
-            echo $email,PHP_EOL;
-            echo $telefone,PHP_EOL;
-            echo $genero,PHP_EOL;
+            
+        
+                    
+           echo "============================================================================<br>";
+           echo "Nome : ".$nome."  |  Gênero Musical  ->  ".$genero."   "."<a href=contrato.php >Contratar</a><br>";
+           echo "============================================================================<br>";
+            //echo $sobrenome,PHP_EOL;
+            //echo $email,PHP_EOL;
+            //echo $telefone,PHP_EOL;
+            //echo $genero."<br>";
 }
-
 ?>
+</div>
+
+</body>
+</html>
