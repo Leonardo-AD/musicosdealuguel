@@ -2,8 +2,8 @@
 
 session_start();
 
-$conecta = mysqli_connect('localhost', 'musicos', 'projeto2018') or die ("Erro ao conectar ao banco");
-$db = mysqli_select_db($conecta, "musicos");
+$conecta = mysqli_connect('localhost', 'root', 'lucy') or die ("Erro ao conectar ao banco");
+$db = mysqli_select_db($conecta, "aluguel");
 
 function login ($user, $pw){
 	$users = file('users-pws.txt');

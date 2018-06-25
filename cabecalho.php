@@ -4,6 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Músicos de Aluguel</title>
 
+<?php session_start();
+if(!isset($SESSION['logado'])){
+  $_SESSION['Logado']= [];
+}
+if (isset($SESSION["login"]) && isset($_SESSION["senha"])) {
+  $_llogin = $_SESSION['login'];
+  $_ssenha = $_SESSION['senha'];
+}
+?>
+
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">

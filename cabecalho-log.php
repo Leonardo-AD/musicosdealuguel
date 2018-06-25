@@ -1,3 +1,12 @@
+<?php session_start();
+if(!isset($SESSION['logado'])){
+  $_SESSION['Logado']= [];
+}
+if (isset($SESSION["login"]) && isset($_SESSION["senha"])) {
+  $_llogin = $_SESSION['login'];
+  $_ssenha = $_SESSION['senha'];
+}
+?>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       
