@@ -6,48 +6,60 @@
 
 <script>
     function validar(dom,tipo){
-        switch(tipo){
-            case'num':var regex=/[A-Za-z]/g;break;
-            case'text':var regex=/\d/g;break;
-        }
-        dom.value=dom.value.replace(regex,'');
+	    switch(tipo){
+        	case'num':var regex=/[A-Za-z]/g;break;
+        	case'text':var regex=/\d/g;break;
+	    }
+	    dom.value=dom.value.replace(regex,'');
     }
 </script>
 
 <div class="container" id="corpo">
 
-  <h2 class="pagm">Contratação de Musicos </h2>
+  <h2 class="pagm">Cadastro de Músicos</h2>
     <form class="form-horizontal" action="cad-musico.php" method="POST">
       <div class="form-group" id="pri">
+        <label class="control-label col-sm-2" for="name">Nome:</label>
         <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" placeholder="Nome artístico ou da Banda" name="name" onkeyup="validar(this,'text');" required>
         </div>
       </div>
+      
       <div class="form-group" id="sec">
+        <label class="control-label col-sm-2" for="email">E-mail:</label>
         <div class="col-sm-10">          
+          <input type="text" class="form-control" id="email" placeholder="E-mail" name="email" required>
         </div>
       </div>
 
       <div class="form-group" id="ter">
-       
+        <label class="control-label col-sm-2" for="pwd">Senha:</label>
         <div class="col-sm-10">          
-          
+          <input type="password" class="form-control" id="pwd" placeholder="Defina sua senha" name="pwd" required>
         </div>
       </div>
+
       <div class="form-group" id="qua">
-        <label class="control-label col-sm-2" for="cpf">Horário do Evento:</label>
+        <label class="control-label col-sm-2" for="cpf">CPF:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="cpf" placeholder="Hora (apenas números)" name="Hora" onkeyup="validar(this,'num');" maxlength="11" required>
-          
+          <input type="text" class="form-control" id="cpf" placeholder="CPF (apenas números)" name="cpf" onkeyup="validar(this,'num');" maxlength="11" required>
+          <script>
+                function funcao1(){alert("Usamos seu CPF para confirmarmos que você é de fato uma pessoa física.");}
+            </script>
                 
+            <input type="button" onclick="funcao1()" id="duvida" value="?" />
         </div>
       </div>
+
       <div class="form-group" id="qui">
+        <label class="control-label col-sm-2" for="cel">Telefone:</label>
         <div class="col-sm-10">          
+          <input type="text" class="form-control" id="cel" placeholder="Telefone (apenas números)" name="cel" onkeyup="validar(this,'num');" maxlength="13" required>
         </div>
       </div> 
       
       <div class="form-group">
-        <label class="control-label col-sm-2" for="born" id="sex">Dia do Evento:</label>
+        <label class="control-label col-sm-2" for="born" id="sex">Data de Nascimento:</label>
         <div class="col-sm-10" id="born">          
           <select name="dia">
             <option value="0">Dia</option>
@@ -204,46 +216,46 @@
         </div>
       </div>
 
+      <script>
+                function funcao2(){alert("Usamos sua data de nascimento para melhorar seu relacionamento com a plataforma.");}
+            </script>
+                
+            <input type="button" onclick="funcao2()" id="duvidaborn" value="?" />
+
       <div class="form-group" id="set">
-        <label class="control-label col-sm-2" for="address">Local  Evento:</label>
+        <label class="control-label col-sm-2" for="address">Endereço:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="address" placeholder="Local do Evento" name="address" required>
+          <input type="text" class="form-control" id="address" placeholder="Endereço" name="address" required>
         </div>
-      </div>       
+      </div>     
       
-      <div class="form-group">
-        <label class="control-label col-sm-2" for="born" id="sex">Instrumentos:</label>
-        <div class="col-sm-10" id="born">              
+      <div class="form-group" id="oito">
+        <label class="control-label col-sm-2" for="gen">Gênero Musical:</label>
+        <div class="col-sm-10" id="gen">          
           <select class="selectpicker" name="gen">
-            <option value="">sim</option>
-              <option value="">nao</option>          
+            <option value="">Gênero</option>           
+            <option>Eletrônico</option>
+            <option>Hip Hop</option>
+            <option>MPB</option>
+            <option>Pop</option>
+            <option>Pop Rock</option>
+            <option>Rap</option>
+            <option>Reggae</option>
+            <option>Rock</option>
+            <option>Sertanejo</option>
           </select>        
         </div>
       </div>
 
+      <script>
+                function funcao3(){alert("Escolha um gênero musical principal para se apresentar quando for contratado.");}
+            </script>
+                
+            <input type="button" onclick="funcao3()" id="duvidagenero" value="?" />
 
-
-
-      <div class="form-group" id="oito">
-        <label class="control-label col-sm-2" for="gen">Qual:</label>
-        <div class="col-sm-10" id="gen">          
-          <select class="selectpicker" name="gen">
-            <option value="">Selecione</option>           
-            <option>Violão</option>
-            <option>Guitarra</option>
-            <option>Violino</option>
-            <option>Bateria</option>
-            <option>Baixo</option>
-            <option>Piano</option>
-            <option>Teclado</option>
-            <option>Sanfona</option>
-            <option>Outros</option>
-          </select>            
-        </div>
-      </div>
       <div class="form-group">        
         <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default" id="btcad">Contratar</button>
+          <button type="submit" class="btn btn-default" id="btcad">Cadastrar</button>
         </div>
       </div>
     </form>

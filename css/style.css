@@ -366,7 +366,7 @@ div#ter{
 }
 
 div#qua{
-  margin-left: 25%;
+  margin-left: 19%;
 }
 
 div#qui{
@@ -374,7 +374,7 @@ div#qui{
 }
 
 label#sex{
-  margin-left:21.5%;
+  margin-left:19.5%;
 }
 
 div#set{
@@ -406,30 +406,39 @@ input#cpf{
 }
 
 input#cel{
-  margin-left:-2%;
+  margin-left:-9%;
   width:50%;
 }
 
 div#gen{
-  margin-left:-20%;
+  margin-left:-15%;
   width:50%;
 }
 
+label#sox{
+margin-left: 18%;
+
+}
+div#barn{
+  margin-left: -9%
+  width:30%;
+}
+
 input#address{
-  margin-left:-2%;
+  margin-left:-12%;
   width:50%;
 }
 
 div#born{
-  margin-left:-6.8%;
+  margin-left:-6.10%;
   width:30%;
 }
 
 button#btcad{
   background-color: #36CBD4;
   border-radius:20px;
-  margin-left: -20%;
-  margin-top:3%;
+  margin-left: -42%;
+  margin-top:2%;
   margin-bottom:8%;
 }
 
