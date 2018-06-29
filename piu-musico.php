@@ -47,6 +47,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         $conectou = mysqli_query($conecta, "SELECT * FROM MUSICO WHERE EMAIL = '$user'") or die("erro ao selecionar");
 
     while($linha = mysqli_fetch_array($conectou)){
+            $id = $linha['ID'];
             $senha = $linha['SENHA'];
             $nome = $linha['NOME'];
             $sobrenome = $linha['SOBRENOME'];
@@ -57,9 +58,25 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             $data = $linha['DATA_DE_NASCIMENTO'];
             $cpf = $linha['CPF'];
             $foto = $linha['FOTO'];
-    } 
+            $_SESSION['id'] = $id;
+
+    }
+    //$id = mysqli_query($conecta, "SELECT ID FROM MUSICO WHERE NOME = '$user");
+   
     
   ?>
+  
+  <?php
+  
+
+    
+    $conectou = mysqli_query($conecta,"SELECT * FROM FOTOS");
+    while($foto = mysqli_fetch_array($conectou)){
+        $fotos = $foto['FOTO'];
+    }
+  
+  ?>
+  
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;margin-top:200%;">
 
@@ -74,12 +91,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             
              <form method="post" action="proc_upload.php" enctype="multipart/form-data">
                 <input type="file" name="arquivo" style="color:white;">
+                <input type="hidden" name="id" value='<?php echo $id ?>'>
                 <input type="submit" value="Atualizar">
                 <a  target='_blank' data-placement="top" title="Editar Foto"><i class="fa fa-edit fa-1x"></i></a>
             </form>
     
                 
-          <img src="fb.jpg" style="width:100%;height: 400px;" alt="Avatar">
+          <img src="fb.jpg"style="width:100%;height: 400px;" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2><?= $nome ?></h2>
           </div>

@@ -4,8 +4,7 @@
         <div class="row">
           <div class="col-md-4 f-about">
             <a><h1><span>Músicos de Aluguel</span></h1></a>
-            <p style="color: black; font-size: 13pt; text-align: justify; text-indent: 30px;">em construção
-            </p>
+            <p style="color: black; font-size: 13pt; text-align: justify; text-indent: 30px;">Ideal para as pessoas que querem ganhar uma grana extra no final do mês fazendo o que amam e para as pessoas que procuram músicos para realizarem alguma apresentação... Cadastre-se em nosso site e aproveite nossas vantagens</p>
           </div>
           <!-- <div class="col-md-4 l-posts">
             <h3 class="widgetheading">Latest Posts</h3>

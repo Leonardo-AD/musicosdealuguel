@@ -63,15 +63,15 @@
         <div class="col-sm-10" id="born">          
           <select name="dia">
             <option value="0">Dia</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
@@ -234,15 +234,15 @@
         <div class="col-sm-10" id="gen">          
           <select class="selectpicker" name="gen">
             <option value="">Gênero</option>           
-            <option>Eletrônico</option>
-            <option>Hip Hop</option>
-            <option>MPB</option>
-            <option>Pop</option>
-            <option>Pop Rock</option>
-            <option>Rap</option>
-            <option>Reggae</option>
-            <option>Rock</option>
-            <option>Sertanejo</option>
+            <option value="ELETRONICA">Eletrônica</option>
+            <option value="HIP HOP">Hip Hop</option>
+            <option value="MPB">MPB</option>
+            <option value="POP">Pop</option>
+            <option value="POP ROCK">Pop Rock</option>
+            <option value="RAP">Rap</option>
+            <option value="REGGAE">Reggae</option>
+            <option value="ROCK">Rock</option>
+            <option value="SERTANEJO">Sertanejo</option>
           </select>        
         </div>
       </div>

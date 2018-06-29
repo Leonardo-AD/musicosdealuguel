@@ -20,22 +20,20 @@ include 'init.php';
  $conectou = mysqli_query($conecta, "SELECT * FROM MUSICO") or die("erro ao selecionar");
 
  while($linha = mysqli_fetch_array($conectou)){
-            $nome = $linha['NOME'];
-            $sobrenome = $linha['SOBRENOME'];
-            $email = $linha['EMAIL'];
-            $telefone = $linha['TELEFONE'];
-            $genero = $linha['GENERO_MUSICAL'];
+        $id = $linha['ID'];
+        $nome = $linha['NOME'];
+        $sobrenome = $linha['SOBRENOME'];
+        $email = $linha['EMAIL'];
+        $telefone = $linha['TELEFONE'];
+        $genero = $linha['GENERO_MUSICAL'];
 
-            
-        
-                    
-           echo "============================================================================<br>";
-           echo "Nome : ".$nome."  |  Gênero Musical  ->  ".$genero."   "."<a href=contrato.php >Contratar</a><br>";
-           echo "============================================================================<br>";
-            //echo $sobrenome,PHP_EOL;
-            //echo $email,PHP_EOL;
-            //echo $telefone,PHP_EOL;
-            //echo $genero."<br>";
+        echo "============================================================================<br>";
+        echo "Nome : ".$nome."  |  Gênero Musical  ->  ".$genero."  Telefone = ".$telefone."   "."<form method=post action=contratooo.php><input type=hidden value=$id  name=ident><input type=submit value=Contratar></form>";
+        echo "============================================================================<br>";
+        //echo $sobrenome,PHP_EOL;
+        //echo $email,PHP_EOL;
+        //echo $telefone,PHP_EOL;
+        //echo $genero."<br>";
 }
 ?>
 </div>

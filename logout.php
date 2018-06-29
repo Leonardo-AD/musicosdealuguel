@@ -1,9 +1,6 @@
 <?php
-
-include 'init.php';
-
-unset($_SESSION['EMAIL']);
-
-header('location:index.php');
-
+ session_start();
+ unset($_SESSION['user']);
+ session_destroy();
+ header('location:index.php');
 ?>

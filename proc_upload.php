@@ -9,14 +9,12 @@
 <?php
 
     include 'init.php';
-    
-	//include_once("conexao.php");
 
 	$arquivos = $_FILES['arquivo']['name'];
+	$id = $_POST['id'];
 
 	$_UP['pasta'] = "foto/";
 	
-	//$foto = mysqli_query($conecta, "UPDATE `MUSICO` SET `FOTO` = '$conecta' WHERE `MUSICO`.`USUARIO` = 1;');
 
 	$_UP['tamanho'] = 1024*1024*100;
 
@@ -24,8 +22,6 @@
 
 	$_UP['renomear'] = false;
 
-
-	//erros
 
 	$_UP['erros']['0'] = 'nao houve erro'; 
 	$_UP['erros']['1'] = 'houve';
@@ -46,7 +42,7 @@
 	}
 
 	else if($_UP['tamanho'] < $_FILES['arquivo']['size']){
-		echo "tamanho grande";
+		//echo "tamanho grande";
 	}
 
 	else{
@@ -57,10 +53,12 @@
 
 		else{
 			$nome_final = $_FILES['arquivo']['name'];
+			$id = $_POST['id'];
+			header('location:piu-musico.php');
 		}
 
 		if(move_uploaded_file($_FILES['arquivo']['tmp_name'], $_UP['pasta'].$nome_final)){
-			$query = mysqli_query($conecta, "INSERT INTO MUSICO (FOTO) VALUES ('$nome_final')");
+			$query = mysqli_query($conecta, "INSERT INTO FOTOS (ID_MUSICO,FOTO) VALUES ('$id','$nome_final')");
 
 			header('location:piu-musico.php');
 		}

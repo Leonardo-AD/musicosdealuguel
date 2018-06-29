@@ -2,7 +2,13 @@
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-  <?php include "cabecalho.php";?>
+    <?php include "cabecalho.php" ?>
+
+    <?php 
+        include 'init.php';
+        $id = $_POST['ident'];
+        $_SESSION['id'] = $id;
+    ?>
 
 <script>
     function validar(dom,tipo){
@@ -15,9 +21,9 @@
 </script>
 
 <div class="container" id="corpo">
-
+   
   <h2 class="pagm">Contratação de Musicos </h2>
-    <form class="form-horizontal" action="cad-musico.php" method="POST">
+    <form class="form-horizontal"  method="POST" action="contratar.php">
       <div class="form-group" id="pri">
         <div class="col-sm-10">
         </div>
@@ -42,7 +48,7 @@
         </div>
       </div>
       <div class="form-group" id="qui">
-        <div class="col-sm-10">          
+        <div class="col-sm-10">    
         </div>
       </div> 
       
@@ -207,7 +213,7 @@
       <div class="form-group" id="set">
         <label class="control-label col-sm-2" for="address">Local  Evento:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="address" placeholder="Local do Evento" name="address" required>
+          <input type="text" class="form-control" id="address" placeholder="Local do Evento" name="local" required>
         </div>
       </div>       
       
@@ -248,6 +254,7 @@
       </div>
     </form>
 </div>
+
 
 <hr>
 

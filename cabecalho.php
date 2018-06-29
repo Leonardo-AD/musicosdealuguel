@@ -4,16 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Músicos de Aluguel</title>
 
-<?php session_start();
-if(!isset($SESSION['logado'])){
-  $_SESSION['Logado']= [];
-}
-if (isset($SESSION["login"]) && isset($_SESSION["senha"])) {
-  $_llogin = $_SESSION['login'];
-  $_ssenha = $_SESSION['senha'];
-}
-?>
-
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
@@ -54,15 +44,15 @@ if (isset($SESSION["login"]) && isset($_SESSION["senha"])) {
             <li class="dropdown">
         <a href="javascript:void(0)" aria-hidden="true" class="dropbtn">Gêneros Musicais</a>
         <div class="dropdown-content" style="margin-left: 12px;">
-          <a href="#">Eletrônica</a>
-          <a href="#">Hip Hop</a>
-          <a href="#">MPB</a> 
-          <a href="#">Pop</a>
-          <a href="#">Pop Rock</a>
-          <a href="#">Rap</a>
-          <a href="#">Reggae</a>
-          <a href="#">Rock</a>
-          <a href="#">Sertanejo</a> 
+          <a href="genero.php?genero=ELETRONICA">Eletrônica</a>
+          <a href="genero.php?genero=HIP HOP">Hip Hop</a>
+          <a href="genero.php?genero=MPB">MPB</a> 
+          <a href="genero.php?genero=POP">Pop</a>
+          <a href="genero.php?genero=POP ROCK">Pop Rock</a>
+          <a href="genero.php?genero=RAP">Rap</a>
+          <a href="genero.php?genero=REGGAE">Reggae</a>
+          <a href="genero.php?genero=ROCK">Rock</a>
+          <a href="genero.php?genero=SERTANEJO">Sertanejo</a> 
           <a href="todos.php">Todos</a>       
         </div>
         </li>
