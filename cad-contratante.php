@@ -9,16 +9,16 @@
 
 	include 'init.php';
 
-	$nem = $_POST['email'];
-	$npw = $_POST['pwd'];
-	$nname = $_POST['name'];
-	$nend = $_POST['address'];
-	$dian = $_POST['dia'];
-	$mesn = $_POST['mes'];
-	$anon = $_POST['ano'];
+	$nem = mysqli_real_escape_string($conecta, $_POST['email']);
+	$npw = mysqli_real_escape_string($conecta, $_POST['pwd']);
+	$nname = mysqli_real_escape_string($conecta, $_POST['name']);
+	$nend = mysqli_real_escape_string($conecta, $_POST['address']);
+	$dian = mysqli_real_escape_string($conecta, $_POST['dia']);
+	$mesn = mysqli_real_escape_string($conecta, $_POST['mes']);
+	$anon = mysqli_real_escape_string($conecta, $_POST['ano']);
 	$ndn = $dian.$mesn.$anon;
-	$ncnpj = $_POST['cpf'];
-	$ntel = $_POST['cel'];
+	$ncnpj = mysqli_real_escape_string($conecta, $_POST['cpf']);
+	$ntel = mysqli_real_escape_string($conecta, $_POST['cel']);
 	
 	$cadastrar = "INSERT INTO `CONTRATANTE` (`EMAIL`, `SENHA`, `NOME`, `ENDERECO`, `CNPJ`, `DATA_DE_NASCIMENTO`, `TELEFONE`) VALUES ('$nem', '$npw', '$nname', '$nend', '$ncnpj', '$ndn', '$ntel')";
 	$cadastrou = mysqli_query($conecta, $cadastrar);

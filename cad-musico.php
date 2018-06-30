@@ -9,15 +9,15 @@
 
 	include 'init.php';
 
-	$npw = $_POST['pwd'];
-	$nname = $_POST['name'];
-	$nemail = $_POST['email'];
-	$ntel = $_POST['cel'];
-	$nend = $_POST['address'];
-	$ngenero = $_POST['gen'];
-	$dian = $_POST['dia'];
-	$mesn = $_POST['mes'];
-	$anon = $_POST['ano'];
+	$npw = mysqli_real_escape_string($conecta, $_POST['pwd']);
+	$nname = mysqli_real_escape_string($conecta, $_POST['name']);
+	$nemail = mysqli_real_escape_string($conecta, $_POST['email']);
+	$ntel = mysqli_real_escape_string($conecta, $_POST['cel']);
+	$nend = mysqli_real_escape_string($conecta, $_POST['address']);
+	$ngenero = mysqli_real_escape_string($conecta, $_POST['gen']);
+	$dian = mysqli_real_escape_string($conecta, $_POST['dia']);
+	$mesn = mysqli_real_escape_string($conecta, $_POST['mes']);
+	$anon = mysqli_real_escape_string($conecta, $_POST['ano']);
 	$ndn = $dian.$mesn.$anon;
 	$ncpf = $_POST['cpf'];
 

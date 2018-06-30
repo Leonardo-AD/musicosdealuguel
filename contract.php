@@ -2,15 +2,15 @@
 
 include 'init.php';
 
-$id_m = $_POST['id_m'];
-$id_c = $_POST['id_c'];
-$nome_m = $_POST['nome_m'];
-$nome_c = $_POST['nome_c'];
-$local = $_POST['local'];
-$horario = $_POST['horario'];
-$dia = $_POST['dia'];
-$mes = $_POST['mes'];
-$ano = $_POST['ano'];
+$id_m = mysqli_real_escape_string($conecta, $_POST['id_m']);
+$id_c = mysqli_real_escape_string($conecta, $_POST['id_c']);
+$nome_m = mysqli_real_escape_string($conecta, $_POST['nome_m']);
+$nome_c = mysqli_real_escape_string($conecta, $_POST['nome_c']);
+$local = mysqli_real_escape_string($conecta, $_POST['local']);
+$horario = mysqli_real_escape_string($conecta, $_POST['horario']);
+$dia = mysqli_real_escape_string($conecta, $_POST['dia']);
+$mes = mysqli_real_escape_string($conecta, $_POST['mes']);
+$ano = mysqli_real_escape_string($conecta, $_POST['ano']);
 	
 $contratou = mysqli_query($conecta,  "INSERT INTO CONTRATOS (ID_M, ID_C, NOME_M, NOME_C, LOCAL, HORARIO, DIA, MES, ANO) VALUES ('$id_m', '$id_c', '$nome_m', '$nome_c', '$local', '$hora', '$dia', '$mes', '$ano')");
 

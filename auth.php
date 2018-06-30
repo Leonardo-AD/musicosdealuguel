@@ -2,8 +2,8 @@
 
 include 'init.php';
 
-$usuario = $_POST['login'];
-$senha = $_POST['senha'];
+$usuario = mysqli_real_escape_string($conecta, $_POST['login']);
+$senha = mysqli_real_escape_string($conecta, $_POST['senha']);
 
 $verifica = mysqli_query($conecta, "SELECT * FROM MUSICO WHERE EMAIL = '$usuario' AND SENHA = '$senha'") or die("erro ao selecionar");
     if (mysqli_num_rows($verifica)>0){
