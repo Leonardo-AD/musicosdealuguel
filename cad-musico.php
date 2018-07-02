@@ -19,9 +19,10 @@
 	$mesn = mysqli_real_escape_string($conecta, $_POST['mes']);
 	$anon = mysqli_real_escape_string($conecta, $_POST['ano']);
 	$ndn = $dian.$mesn.$anon;
-	$ncpf = $_POST['cpf'];
+	$ncpf = mysqli_real_escape_string($conecta, $_POST['cpf']);
+	$ndescricao=mysqli_real_escape_string($conecta, $_POST['descricao']);
 
-	$cadastrar = "INSERT INTO `MUSICO` (`SENHA`, `NOME`, `EMAIL`, `TELEFONE`, `ENDERECO`, `GENERO_MUSICAL`, `DATA_DE_NASCIMENTO`, `CPF`) VALUES ('$npw', '$nname', '$nemail', '$ntel', '$nend', '$ngenero', '$ndn', '$ncpf')"; 
+	$cadastrar = "INSERT INTO `MUSICO` (`SENHA`, `NOME`, `EMAIL`, `TELEFONE`, `ENDERECO`, `GENERO_MUSICAL`, `DATA_DE_NASCIMENTO`, `CPF`,`DESCRICAO`) VALUES ('$npw', '$nname', '$nemail', '$ntel', '$nend', '$ngenero', '$ndn', '$ncpf','$ndescricao')"; 
 	
 	$cadastrou = mysqli_query($conecta, $cadastrar);
 

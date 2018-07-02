@@ -248,10 +248,25 @@
       </div>
 
       <script>
-                function funcao3(){alert("Escolha um gênero musical principal para se apresentar quando for contratado.");}
-            </script>
+        function funcao3(){alert("Escolha um gênero musical principal para se apresentar quando for contratado.");}
+      </script>
                 
             <input type="button" onclick="funcao3()" id="duvidagenero" value="?" />
+
+     <div class="form-group" id="set">
+         
+         <label class="control-label col-sm-2" for="address">Descrição:</label>
+        <div class="col-sm-10">          
+          <textarea class="form-control" rows="5" name="descricao" id="comment" style="width: 50%; margin-left:-2%;" maxlength="400"></textarea>
+        </div>
+         
+     </div>
+     
+     <script>
+        function funcao4(){alert("Faça um breve resumo sobre você ou sua formação musical.");}
+      </script>
+                
+     <input type="button" onclick="funcao4()" id="duvidadescricao" value="?" />
 
       <div class="form-group">        
         <div class="col-sm-offset-2 col-sm-10">

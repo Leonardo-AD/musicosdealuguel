@@ -310,6 +310,20 @@ input#duvidagenero{
   width:25px;
 }
 
+input#duvidadescricao{
+  float: right;
+  margin-right:28.7%;
+  margin-top:-45px;
+  border-radius:15px;
+  color:black;
+  position:relative;
+  width:25px;  
+}
+
+#comment{
+    resize:none;
+}
+
 div.modal-content{
   margin: 50px;
   border-radius: 10px;

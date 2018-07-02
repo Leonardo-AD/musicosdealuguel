@@ -41,8 +41,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <body>
     <?php include "cabecalho-log.php"; ?>  
     <?php
-        include 'init.php';
     
+        include 'init.php';
+    if(isset($_SESSION['user'])){
         $user = $_SESSION['user'];
         $conectou = mysqli_query($conecta, "SELECT * FROM MUSICO WHERE EMAIL = '$user'") or die("erro ao selecionar");
 
@@ -59,6 +60,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             $cpf = $linha['CPF'];
             $foto = $linha['FOTO'];
             $_SESSION['id'] = $id;
+            $descricao=$linha['DESCRICAO'];
 
     }
     //$id = mysqli_query($conecta, "SELECT ID FROM MUSICO WHERE NOME = '$user");
@@ -70,7 +72,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   
 
     
-    $conectou = mysqli_query($conecta,"SELECT * FROM FOTOS");
+    $conectou = mysqli_query($conecta,"SELECT * FROM FOTOS WHERE ID_MUSICO = $id");
     while($foto = mysqli_fetch_array($conectou)){
         $fotos = $foto['FOTO'];
     }
@@ -89,15 +91,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container" >
             
-             <form method="post" action="proc_upload.php" enctype="multipart/form-data">
+             <form method="post" action="upload_img.php" enctype="multipart/form-data">
                 <input type="file" name="arquivo" style="color:white;">
                 <input type="hidden" name="id" value='<?php echo $id ?>'>
                 <input type="submit" value="Atualizar">
-                <a  target='_blank' data-placement="top" title="Editar Foto"><i class="fa fa-edit fa-1x"></i></a>
+                <!--<a  target='_blank' data-placement="top" title="Editar Foto"><i class="fa fa-edit fa-1x"></i></a>-->
             </form>
-    
-                
-          <img src="fb.jpg"style="width:100%;height: 400px;" alt="Avatar">
+          
+          <img src="foto/<?php echo $fotos ?>"style="width:100%;height: 400px;" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2><?= $nome ?></h2>
           </div>
@@ -157,29 +158,30 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Detalhes Musicais</h2>
     
-        <div class="container">    
-            <form method="post">
-                <div class="form-group">
-                    <label for="comment">Descrição:</label>
-                    <textarea class="form-control" rows="5" id="comment" style="width: 50%;"></textarea>
-                </div>
-                <a  target='_blank' href="index.php" data-placement="top" title="Enviar"><i class="fa fa-check-circle fa-1x"></i></a>
+        <!--<div class="container">    -->
+        <!--    <form method="post">-->
+        <!--        <div class="form-group">-->
+        <!--            <label for="comment">Descrição:</label>-->
+        <!--            <textarea class="form-control" rows="5" id="comment" style="width: 50%;"></textarea>-->
+        <!--        </div>-->
+                <!--<a href="#" data-placement="top" title="Enviar"><i class="fa fa-check-circle fa-1x"></i></a>-->
                 
-                <a  target='_blank' href="index.php" data-placement="top" title="Editar"><i class="fa fa-edit fa-1x"></i></a>
-            </form>
-        </div>
+                <!--<a href="#" data-placement="top" title="Editar"><i class="fa fa-edit fa-1x"></i></a>-->
+        <!--    </form>-->
+        <!--</div>-->
         
         
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Em definição</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>Descrição</b></h5> <a href="#" data-placement="top" title="Enviar"><i class="fa fa-check-circle fa-1x"></i></a> 
+          <a href="#" data-placement="top" title="Editar"><i class="fa fa-edit fa-1x"></i></a>
+          <!--<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>-->
+          <p><?=$descricao?></p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Em definição</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <hr>
         </div>
         <div class="w3-container">
@@ -217,6 +219,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   </div>
   
   <!-- End Page Container -->
+  <?php 
+    }
+    else{
+        echo "<script language='javascript' type='text/javascript'>alert('Você precisa estar logado para acessar essa página!');window.location.href='index.php';</script>";
+    }
+    ?>
 </div>
 
 <?php 
