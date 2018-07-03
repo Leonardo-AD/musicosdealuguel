@@ -3,7 +3,7 @@
 session_start();
 
 $conecta = mysqli_connect('localhost', 'root', 'ifpe') or die ("Erro ao conectar ao banco");
-$db = mysqli_select_db($conecta, "musicos");
+$db = mysqli_select_db($conecta, "aluguel");
 
 function login ($user, $pw){
 	$users = file('users-pws.txt');

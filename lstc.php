@@ -9,10 +9,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+   <?php include "cabecalho-log.php"; ?><br>
+   <br> 
 <div class="container">
 <h2>Seus Contratos</h2>
-
-
 
 <?php
 
@@ -44,7 +44,13 @@ while($linha = mysqli_fetch_array($conectou)){
             //echo $genero."<br>";
 }
 ?>
-<!--<button><a href=piu-musico.php>Voltar</a></button>-->
+
+</div>
+</div>
+</div>
+<?php 
+    include 'rodape.php';
+  ?>
 </div>
 </body>
 </html>

@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <?php include 'cabecalho.php';?>
 <div class="container">
 <h2>Lista de Musicos</h2>
 
@@ -37,6 +38,8 @@ include 'init.php';
 }
 ?>
 </div>
-
+<?php 
+    include 'rodape.php';
+  ?>
 </body>
 </html>
